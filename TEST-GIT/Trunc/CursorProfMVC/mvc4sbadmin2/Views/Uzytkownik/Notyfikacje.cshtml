@@ -1,0 +1,124 @@
+﻿@model nclprospekt.Models.Uzytkownik
+
+@{
+    ViewBag.Title = "Notyfikacje";
+}
+
+
+<div id="NotyfikacjeDiv">
+
+    <input id="status" value="@ViewBag.Status" data-message="@ViewBag.Message" style="display:none" />
+
+
+    <div class="panel panel-primary panel-block">
+        <div class="panel-heading">
+            Notyfikacje
+        </div>
+
+        <div class="panel-body">
+
+            @using (Ajax.BeginForm("Notyfikacje", "Uzytkownik",
+            new AjaxOptions
+            {
+                HttpMethod = "POST",
+                InsertionMode = InsertionMode.Replace,
+                OnFailure = "onNotyfikacjeFailure",
+                //OnSuccess = "onAdresMobileSuccess",
+                OnComplete = "onNotyfikacjeCompleted"//,
+                // UpdateTargetId = "adresDetale"
+            }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+
+                for (int i = 0; i < Model.notyfikacje.Count; i++)
+                {
+                    <div class="checkbox">
+                        <label>
+                            @if (@Model.notyfikacje[i].wlacz == true)
+                            {
+                                <input checked="checked" data-val="true" id="@Model.notyfikacje[i].wlacz" name="notyfikacje[@i].wlacz" type="checkbox" value="true" class="notyfikacjeClass" />
+                            }
+                            else
+                            {
+                                <input data-val="true" id="@Model.notyfikacje[i].wlacz" name="notyfikacje[@i].wlacz" type="checkbox" value="true" class="notyfikacjeClass" />
+                            }
+
+                            <input name="notyfikacje[@i].wlacz" type="hidden" value="@Model.notyfikacje[i].wlacz" />
+                            <input name="notyfikacje[@i].user_Id" type="hidden" value="@Model.notyfikacje[i].user_Id" />
+                            <input name="notyfikacje[@i].notyfikacja" type="hidden" value="@Model.notyfikacje[i].notyfikacja" />
+                            @Model.notyfikacje[i].notyfikacja
+                      </label>
+                    </div><br>
+                }
+
+                @*foreach (System.Data.DataColumn col in Model.notyfikacje.Columns)
+                {
+
+
+
+                    //Wycinanie kolumn innych niz potwierdzenia
+                    if (@col.Ordinal > 3)
+                    {
+                        bool wartosc = (bool)Model.notyfikacje.Rows[0][col.Ordinal];
+
+                        <div class="checkbox">
+                            <label>
+                        
+                            </label>
+                        </div><br>
+                    }
+
+                };*@
+
+
+
+                @*for (int i = 0; i < Model.notyfikacje.Rows.Count; i++)
+                {
+                    for (int j = 0; j < Model.notyfikacje.Columns.Count; j++)
+                    {
+                        @Html.EditorFor(model => model.notyfikacje.Rows[i][j])
+
+                    }
+
+
+                }*@
+
+
+                @*<input id="wiersz_@i" type="hidden" name="zamowieniePozycje.Index" value="@indexPozycji" />
+                    Index - inaczej Submit nie zadziala po przerwaniu ciagu elementow
+                <input id="ilosc_@i" value="@Model.zamowieniePozycje[i].ilosc" name="zamowieniePozycje[@indexPozycji].ilosc" type="number" class="wartoscSum sprawdzane form-control ilosc-select" style="width:70px" min=0 />
+                <input type="hidden" value="@Model.zamowieniePozycje[i].sku_id" name="zamowieniePozycje[@indexPozycji].sku_id" />*@
+
+
+
+
+
+                <div class="col-xs-12 col-md-6">
+
+                    <button type="submit" class="btn btn-lg btn-success btn-mobile" id="btnNotyfikacjeSubmit" name="btnNotyfikacjeSubmit">Zapisz</button>
+
+                </div>
+            }
+
+            <div class="col-xs-12 col-md-6">
+                <button type="button" class="btn btn-lg btn-danger btn-mobile detail-link-return">
+                    <span aria-hidden="true"></span>
+                    Wróć
+                </button>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+                </div>
+
+
+
+</div>

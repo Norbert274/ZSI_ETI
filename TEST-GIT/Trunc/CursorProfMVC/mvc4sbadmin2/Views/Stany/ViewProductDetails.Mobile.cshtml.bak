@@ -1,0 +1,94 @@
+﻿@model nclprospekt.Models.ProduktDetailsWO
+
+@{
+    ViewBag.Title = "Detale produktu";
+}
+@ViewBag.Message
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        @ViewBag.Title
+    </div>
+
+    <div class="panel-body">
+
+ @Html.Action(actionName: "ProductPhotos", controllerName: "Stany")
+
+        <input id="product_sku_id" style="display:none" value="@Model.produkt.SKU_ID" />
+        <input id="product_grupa_id" style="display:none" value="@Model.produkt.GRUPA_ID" />
+
+        <div class="form-group col-md-5">
+            @Html.LabelFor(model => model.produkt.SKU)
+            <input id="product_sku" class="form-control" readonly="readonly" value="@Model.produkt.SKU" />
+        </div>
+
+        <div class="form-group col-md-5">
+            @Html.LabelFor(model => model.produkt.GRUPA)
+            <input id="product_grupa" class="form-control" readonly="readonly" value="@Model.produkt.GRUPA" />
+        </div>
+
+        <div class="form-group col-md-5">
+            @Html.LabelFor(model => model.produkt.Koszt_punktowy)
+            <input id="product_Koszt_punktowy" class="form-control" readonly="readonly" value="@Model.produkt.Koszt_punktowy" />
+        </div>
+
+        <div class="form-group col-md-12">
+            @Html.LabelFor(model => model.produkt.NAZWA)
+            <input id="product_nazwa" class="form-control" readonly="readonly" value="@Model.produkt.NAZWA" />
+        </div>
+
+        <div class="form-group col-md-5">
+            @Html.LabelFor(model => model.produkt.LIMIT_LOGISTYCZNY)
+            <input id="product_limit" class="form-control" readonly="readonly" value="@Model.produkt.LIMIT_LOGISTYCZNY" />
+        </div>
+
+        <div class="form-group col-md-5">
+            @Html.LabelFor(model => model.produkt.DOSTEPNE)
+            <input id="product_dostepne" class="form-control" readonly="readonly" value="@Model.produkt.DOSTEPNE" />
+        </div>
+
+        <div class="form-group col-md-2">
+            @Html.LabelFor(model => model.produkt.JM)
+            <input id="product_jm" class="form-control" readonly="readonly" value="@Model.produkt.JM" />
+        </div>
+
+        @*<div class="form-group">
+                <label for="product_sposob_pakowania">Sposób pakowania: </label> <input id="product_sposob_pakowania" class="form-control" readonly="readonly" value="@Model.produkt.SPOSOB_PAKOWANIA" />
+            </div>*@
+
+        <div class="form-group col-md-5">
+            <label for="product_ilosc">Ilość do zamówienia: </label>
+            <input type="number" id="product_ilosc" class="form-control ilosc-select" value="0" min=0 max=@Model.produkt.DOSTEPNE />
+        </div>
+
+
+
+        @*<div class="col-xs-12 col-sm-4">
+            <button class="btn btn-success alertNiezapisaniaZmian" id="btnZamowienieRealizuj" 
+                Prześlij do realizacji
+            </button>*@
+
+        <div class="col-xs-12">
+        </div>
+
+            <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                <button class="btn btn-lg btn-success btn-mobile" id="dodajJedenDoKoszykaStany">
+                <i class="fa fa-plus">&nbsp;&nbsp;</i> 
+                <span aria-hidden="true"></span>
+                Dodaj do koszyka
+
+            </button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="form-group">
+                <button type="button" class="btn btn-lg btn-danger btn-mobile detail-link-return" data-dismiss="modal">
+                <i class="fa fa-times">&nbsp;&nbsp;</i> 
+                <span aria-hidden="true"></span>
+                Zamknij
+            </button>
+            </div>
+        </div>
+    </div>
+</div>

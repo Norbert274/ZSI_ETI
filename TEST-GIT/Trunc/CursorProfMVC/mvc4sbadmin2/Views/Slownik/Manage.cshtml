@@ -1,0 +1,115 @@
+﻿@model List<nclprospekt.Models.SlownikWartosc>
+
+@{
+    ViewBag.Title = "Zarządzaj";
+}
+
+@section scripts{
+<script src="@Url.Content("~/Scripts/custom-slownik.js")" type="text/javascript"></script>
+}
+<input type="hidden" value="@ViewBag.Message" id="message" />
+<input type="hidden" value="@ViewBag.Mode" id="mode" />
+
+<div class="panel panel-primary panel-block">
+    <div class="panel-heading">
+        <div class="row">
+            <a href="@Url.Action("Index","Slownik")"> <span class="btn btn-circle podMenu btn-primary"><i class="fa fa-arrow-left"></i></span></a>
+           <i>Słownik</i> : <strong>@Model.Select(x => x.SlownikNazwa).First()</strong>
+          
+            <span class="btn panelTop btnCLEAR  zarzadzaj nowyBtn pull-right" type="submit" id="btnDodaj">
+                <i class="glyphicon glyphicon-plus-sign"></i>&nbsp; NOWY
+            </span>
+        </div>
+    </div>
+
+    <div class="panel-body">
+
+        <div class="nowy nowyPole">
+            @using (Html.BeginForm("AddItem", "Slownik", FormMethod.Post))
+            {              
+            @Html.AntiForgeryToken()
+            <div class="row">
+            @Html.Hidden("SlownikId", @Model.Select(x => x.SlownikId).First())
+                    <strong>Nowa Wartość:</strong>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        @(Html.TextBoxFor(model => model[0].NazwaWartosc, new { @class = "form-control", Name = "NazwaWartosc" ,Value=""}))
+
+                        @Html.ValidationMessage("NazwaWartosc")
+                    </div>
+                </div>
+           </div>
+            <hr />
+            <div class="row">
+                <i> Dodać nową wartość do słownika ? </i>
+                    <button class="btn zarzadzaj">Tak</button>
+
+                    <span class="btn zarzadzaj nieBtn">Nie</span>
+                
+            </div>
+            }
+        </div>
+
+        @for (int index = 0; index < Model.Count; index++)
+        {
+            <div class="row rectangle">
+
+                    @Model[index].NazwaWartosc
+
+
+                <i class="fa fa-trash-o fa-2x pull-right usun "></i>
+                <i class="fa fa-edit fa-2x pull-right edytuj "></i>
+                
+                    @*<span class="btn zarzadzaj edytujBtn pull-right">Edytuj</span>*@
+                    @*<span class="btn zarzadzaj usunBtn pull-right">Usuń</span>*@
+                    
+            </div>
+
+            <div class="row hidden usun">
+                @using(Html.BeginForm("Delete","Slownik",FormMethod.Post))
+                { 
+                @Html.AntiForgeryToken()
+                @Html.Hidden("SlownikId", Model[index].SlownikId)
+                @Html.Hidden("SlownikWartoscId", Model[index].SlownikWartoscId)
+
+                <div class="slownikMangeText">
+                  
+                    Usunąć Wartość Słownika : @Model[index].NazwaWartosc
+
+                 <button class="btn zarzadzaj" name="action" value="delete">Tak</button>
+
+                  <span class="btn zarzadzaj nieBtn">Nie</span>
+                    <hr />
+                </div>
+                }
+            </div>
+          
+            <div class="row hidden edytuj form-group">
+                @using(Html.BeginForm("Edit","Slownik",FormMethod.Post))
+                {
+                @Html.AntiForgeryToken()
+                @Html.Hidden("SlownikId", Model[index].SlownikId)
+                @Html.Hidden("SlownikWartoscId", Model[index].SlownikWartoscId)
+    <div class="slownikMangeText col-xs-10 col-sm-6 form-group">
+
+        @(Html.TextBoxFor(model => model[index].NazwaWartosc, new { @class = "form-control", Name = "NazwaWartosc" }))
+
+        @Html.ValidationMessage("NazwaWartosc")
+
+        <hr />
+        <i>Zamienić Wartość Słownika :</i> @Model[index].NazwaWartosc
+        <button class="btn zarzadzaj" type="submit">Tak</button>
+        <span class="btn zarzadzaj nieBtn">Nie</span>
+
+    </div>
+                }
+                </div>
+               
+
+        }
+
+    </div>
+</div>
+
+
+

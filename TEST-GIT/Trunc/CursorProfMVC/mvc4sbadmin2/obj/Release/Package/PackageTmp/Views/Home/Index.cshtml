@@ -1,0 +1,246 @@
+﻿@model nclprospekt.Models.DashboardWO
+@{
+    ViewBag.Title = "Start";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="@Url.Content("~/Scripts/raphael-min.js")" type="text/javascript"></script>
+<style>
+    #legend {
+        height: 50px;
+    }
+
+        #legend span {
+            display: inline-block;
+            padding: 0px 10px 0px 30px;
+            position: relative;
+            border-right: 20px solid;
+        }
+
+            #legend span:after {
+                padding-left: 4px;
+                text-decoration: line-through;
+                font-weight: bold;
+                height: 4px;
+            }
+</style>
+<p class="message-success">@ViewBag.StatusMessage</p>
+
+
+@if (User.Identity.Name != null && User.Identity.Name != "")
+{
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+
+            @if (Request.IsAuthenticated)
+            {
+                if (User.IsInRole("StanyToolStripMenuItem"))
+                {
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="panel panel-green">
+                            <a target="_self" href="@Url.Action("Index","Stany")">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class=" col-sm-6">
+                                            <i class="fa fa-picture-o fa-5x"></i>
+                                        </div>
+                                        <div class="col-sm-6 text-right">
+
+                                            @if (Model.IloscProduktow.ToString().Length > 5)
+                                    {
+                                    <div>@Html.DisplayFor(model => model.IloscProduktow)</div>
+                                    }
+                                    else
+                                    {
+                                    <div class="huge">@Html.DisplayFor(model => model.IloscProduktow)</div>
+                                    }
+                                        </div>
+                                        <div class="col-sm-12 text-right">
+                                            <div>@Html.DisplayNameFor(model => model.IloscProduktow)</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel-footer">
+                                    <span class="pull-left">Idź do</span> <span class="pull-right">
+                                        <i class="fa fa-arrow-circle-right">
+                                        </i>
+                                    </span>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                <!-- Produkty  -->
+                }
+            }
+            @if (Request.IsAuthenticated)
+            {
+                if (User.IsInRole("KoszykToolStripMenuItem"))
+                {
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="panel panel-yellow">
+                            <a target="_self" href="@Url.Action("Edit","Koszyk")">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <i class="fa fa-shopping-cart fa-5x"></i>
+                                        </div>
+                                        <div class="col-sm-6 text-right">
+                                            @if (Model.IloscWKoszyku.ToString().Length > 5)
+                                    {
+                                    <div class="medium">@Html.DisplayFor(model => model.IloscWKoszyku)</div>
+                                    }
+                                    else
+                                    {
+                                    <div class="huge">@Html.DisplayFor(model => model.IloscWKoszyku)</div>
+                                    }
+                                        </div>
+                                        <div class="col-sm-12 text-right">
+                                            <div>@Html.DisplayNameFor(model => model.IloscWKoszyku)</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel-footer">
+                                    <span class="pull-left">Idź do</span> <span class="pull-right">
+                                        <i class="fa fa-arrow-circle-right">
+                                        </i>
+                                    </span>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+            <!-- Koszyk  -->
+                }
+            }
+            @if (Request.IsAuthenticated)
+            {
+                if (User.IsInRole("ZamowieniaToolStripMenuItem"))
+                {
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="panel panel-red">
+                            <a target="_self" href="@Url.Action("Index","Zamowienie")">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class=" col-sm-6">
+                                            <i class="fa fa-list-alt fa-5x"></i>
+                                        </div>
+                                        <div class="col-sm-6 text-right">
+                                            @if (Model.IloscZamowien.ToString().Length > 5)
+                                    {
+                                    <div class="medium">@Html.DisplayFor(model => model.IloscZamowien)</div>
+                                    }
+                                    else
+                                    {
+                                    <div class="huge">@Html.DisplayFor(model => model.IloscZamowien)</div>
+                                    }
+
+
+                                        </div>
+                                        <div class="col-sm-12 text-right">
+                                            <div>@Html.DisplayNameFor(model => model.IloscZamowien)</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel-footer">
+                                    <span class="pull-left danger">Idź do</span> <span class="pull-right">
+                                        <i class="fa fa-arrow-circle-right">
+                                        </i>
+                                    </span>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                        <!-- Zamowienia  -->
+                }
+            }
+            <div target="_self" class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <a href="@Url.Action("Index", "Ustawienia")">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class=" col-sm-6">
+                                    <i class="fa fa-home fa-5x"></i>
+                                </div>
+                                <div class="col-sm-6 text-right">
+                                    @if (Model.IloscAdresow.ToString().Length > 5)
+                                    {
+                                    <div class="medium">@Html.DisplayFor(model => model.IloscAdresow)</div>
+                                    }
+                                    else
+                                    {
+                                    <div class="huge">@Html.DisplayFor(model => model.IloscAdresow)</div>
+                                    }
+                                </div>
+                                <div class="col-sm-12 text-right">
+                                    <div>@Html.DisplayNameFor(model => model.IloscAdresow)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                            <span class="pull-left">Idź do</span> <span class="pull-right">
+                                <i class="fa fa-arrow-circle-right">
+                                </i>
+                            </span>
+                            <div class="clearfix">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Adresy  -->
+            @*</div>
+                    </div>
+                    <!-- /.panel-body -->
+                </div>*@
+            <!-- /.panel -->
+        </div>
+    </div>
+
+
+
+    <div class="col-md-12 col-sm-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Ilość zamówień
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <div id="morris-area-chart">
+                </div>
+                <div id="legend">
+                </div>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+        <!-- /.panel -->
+    </div>
+
+
+
+
+                <!-- /.row -->
+
+    @section scripts{
+        <script type="text/javascript">
+            $(function() { var chart = Morris.Area({ element:
+            'morris-area-chart', lineColors: ['#f0ad4e','#b52b27'], data: @Html.Raw(Json.Encode(Model.daneWykres)),
+                xkey: 'miesiac', ykeys: ['ZamowienRealizowanych', 'ZamowienRoboczych'], labels:
+                ['Zamówień przesłanych do realizacji', 'Zamówień roboczych'], pointSize: 2, hideHover:
+                'auto', resize: true }); chart.options.labels.forEach(function(label, i){ var legendItem
+                = $('<span></span>').text(label).css('color', chart.options.lineColors[i]); $('#legend').append(legendItem);
+                }); }); </script>
+    }
+
+
+}
+<div class="col-lg-12">
+    <br />
+</div>
+

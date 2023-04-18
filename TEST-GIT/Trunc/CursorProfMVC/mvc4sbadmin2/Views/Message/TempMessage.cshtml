@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "TempMessage";
+}
+
+
+<div id="komunikaty" style="padding:5px">
+
+    @{string errormessage = TempData["error"] as string;
+    string successmessage = TempData["success"] as string;
+    string warningmessage = TempData["warning"] as string;
+    string infomessage = TempData["info"] as string;
+    string message = TempData["msg"] as string;
+    }
+
+    @if (!String.IsNullOrEmpty(infomessage))
+    {
+        <div class="alert alert-info fade in">
+            @ViewBag.Info
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        </div>
+    }
+
+    @if (!String.IsNullOrEmpty(errormessage))
+    {
+        <div id="alertBlad" class="alert alert-block alert-danger fade in">
+            <button type="button" class="close" data-dismiss="alert">
+                &times;
+            </button>
+            <h4 class="alert-heading">
+                Wykryto błędy!
+            </h4>
+            <p>@errormessage</p>
+        </div>
+    }
+
+    @if (!String.IsNullOrEmpty(warningmessage))
+    {
+        <div id="alertWarning" class="alert alert-block alert-warning fade in">
+            <button type="button" class="close" data-dismiss="alert">
+                &times;
+            </button>
+            <h4 class="alert-heading">
+                Uwaga!
+            </h4>
+            <p>@warningmessage</p>
+        </div>
+    }
+
+    @if (!String.IsNullOrEmpty(successmessage))
+    {
+        <div id="" class="alert alert-block alert-success fade in">
+            <button type="button" class="close" data-dismiss="alert">
+                &times;
+            </button>
+            <h4 class="alert-heading">
+                Sukces!
+            </h4>
+            <p>@successmessage</p>
+        </div>
+    }
+    
+    @if (!String.IsNullOrEmpty(message))
+    {
+        <div id="" class="alert alert-block alert-info fade in">
+            <button type="button" class="close" data-dismiss="alert">
+                &times;
+            </button>
+            <h4 class="alert-heading">
+                Info
+            </h4>
+            <p>@message</p>
+        </div>
+    }
+
+</div>
+
+

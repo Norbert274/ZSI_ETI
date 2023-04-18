@@ -1,0 +1,1361 @@
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.config
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.manifest
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.application
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.XmlSerializers.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.pdb
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Charts.v11.2.Core.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\EPPlus.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Data.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Data.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Data.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Data.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Utils.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Utils.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Utils.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Utils.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraBars.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraBars.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraBars.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraBars.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraCharts.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraCharts.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraCharts.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraCharts.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraEditors.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraEditors.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraEditors.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraEditors.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraGrid.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraGrid.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraGrid.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraGrid.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraLayout.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraLayout.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraLayout.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraLayout.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraReports.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraReports.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraReports.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraReports.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycjeZExcela.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNoweZExcela.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrEdytorTekstu.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrImgGaleria.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrStan.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmResetHasla.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwiz.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwizaDostawa.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodni.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodniFiltr.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialow.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialowFiltr.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialySkuGrupaObdzielana.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRentownosci.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatach.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatachFiltr.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportWejsciaWyjscia.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownik.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikPozycjaDodaj.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkosc.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkoscEdycja.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdres.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresKopiuj.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresy.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizacje.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizaSzczegoly.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycje.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpd.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpdUprawnienia.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDostawca.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmEdytujSKU.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleria.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleriaDialog.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGlowna.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGrupy.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatDlaUzytkownika.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatEdycja.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatyLista.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKontakt.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimity.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimityDodajUzytkownik.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLogowanie.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmMagazyny.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsleterLista.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsletter.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeSystemowe.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeUzytkownikow.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaGrupaNazwa.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaWiadomosc.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikDodaj.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikiDoPobrania.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPobieraniePlikowExcelaZBazy.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPodzialGrupa.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportHistoriiMaterialu.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimity.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimityFiltr.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchod.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchodFiltr.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportStanow.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienFiltr.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienia.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNowy.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarSprzedazyEdycja.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarySprzedazy.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSieciSprzedazy.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSiecSprzedazyEdycja.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolSprzedazyEdycja.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolySprzedazy.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmStan.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownicy.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownik.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikFunkcje.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikGrupy.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikHaslo.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikPodstawoweDane.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWiadomosci.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWyszukiwanieAdresu.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienia.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowieniaZExcela.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienie.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieOdbiorcy.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZarzadzanieAwizami.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmianaHasla_Tel_Email.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmienHaslo.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwroty.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwrotyBezZamowien.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.Resources.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ToolTipWithImage.resources
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\GenerateResource.read.1.tlog
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\GenerateResource.write.1.tlog
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe.manifest
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.application
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.xml
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.pdb
+E:\SVN\SuperZsi\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.XmlSerializers.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.config
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.pdb
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.XmlSerializers.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\ResolveAssemblyReference.cache
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycjeZExcela.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNoweZExcela.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrEdytorTekstu.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrImgGaleria.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrStan.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmResetHasla.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwiz.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwizaDostawa.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodni.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodniFiltr.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialow.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialowFiltr.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialySkuGrupaObdzielana.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRentownosci.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatach.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatachFiltr.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportWejsciaWyjscia.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownik.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikPozycjaDodaj.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkosc.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkoscEdycja.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdres.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresKopiuj.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresy.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizacje.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizaSzczegoly.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycje.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpd.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpdUprawnienia.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDostawca.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmEdytujSKU.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleria.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleriaDialog.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGlowna.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGrupy.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatDlaUzytkownika.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatEdycja.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatyLista.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKontakt.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimity.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimityDodajUzytkownik.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLogowanie.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmMagazyny.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsleterLista.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsletter.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeSystemowe.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeUzytkownikow.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaGrupaNazwa.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaWiadomosc.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikDodaj.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikiDoPobrania.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPobieraniePlikowExcelaZBazy.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPodzialGrupa.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportHistoriiMaterialu.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimity.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimityFiltr.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchod.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchodFiltr.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportStanow.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienFiltr.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienia.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNowy.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarSprzedazyEdycja.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarySprzedazy.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSieciSprzedazy.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSiecSprzedazyEdycja.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolSprzedazyEdycja.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolySprzedazy.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmStan.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownicy.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownik.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikFunkcje.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikGrupy.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikHaslo.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikPodstawoweDane.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWiadomosci.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWyszukiwanieAdresu.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienia.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowieniaZExcela.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienie.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieOdbiorcy.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZarzadzanieAwizami.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmianaHasla_Tel_Email.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmienHaslo.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwroty.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwrotyBezZamowien.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.Resources.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ToolTipWithImage.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\GenerateResource.read.1.tlog
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\GenerateResource.write.1.tlog
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.manifest
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.application
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.XmlSerializers.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.pdb
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Charts.v11.2.Core.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\EPPlus.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Data.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Data.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Data.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Data.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Utils.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Utils.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Utils.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Utils.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraBars.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraBars.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraBars.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraBars.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraCharts.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraCharts.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraCharts.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraCharts.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraEditors.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraEditors.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraEditors.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraEditors.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraGrid.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraGrid.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraGrid.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraGrid.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraLayout.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraLayout.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraLayout.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraLayout.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraReports.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraReports.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraReports.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraReports.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe.manifest
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.application
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieINV.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieINVPozycjeExcel.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozliczenie.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozliczenieFiltr.resources
+C:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.config
+C:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe
+C:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.xml
+C:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.pdb
+C:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.XmlSerializers.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.config
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.pdb
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.XmlSerializers.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.manifest
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.application
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.XmlSerializers.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.pdb
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Charts.v11.2.Core.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\EPPlus.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.xml
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Data.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Data.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Data.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Data.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Utils.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Utils.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Utils.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Utils.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraBars.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraBars.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraBars.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraBars.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraCharts.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraCharts.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraCharts.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraCharts.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraEditors.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraEditors.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraEditors.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraEditors.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraGrid.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraGrid.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraGrid.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraGrid.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraLayout.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraLayout.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraLayout.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraLayout.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraReports.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraReports.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraReports.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraReports.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbprojResolveAssemblyReference.cache
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycjeZExcela.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNoweZExcela.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrEdytorTekstu.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrImgGaleria.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrStan.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmResetHasla.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwiz.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwizaDostawa.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodni.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodniFiltr.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialow.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialowFiltr.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialySkuGrupaObdzielana.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRentownosci.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatach.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatachFiltr.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozliczenie.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozliczenieFiltr.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportWejsciaWyjscia.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownik.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikPozycjaDodaj.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkosc.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkoscEdycja.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdres.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresKopiuj.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresy.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizacje.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizaSzczegoly.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycje.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpd.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpdUprawnienia.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDostawca.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmEdytujSKU.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleria.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleriaDialog.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGlowna.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGrupy.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatDlaUzytkownika.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatEdycja.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatyLista.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKontakt.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimity.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimityDodajUzytkownik.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLogowanie.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmMagazyny.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsleterLista.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsletter.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeSystemowe.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeUzytkownikow.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaGrupaNazwa.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaWiadomosc.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikDodaj.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikiDoPobrania.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPobieraniePlikowExcelaZBazy.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPodzialGrupa.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportHistoriiMaterialu.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimity.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimityFiltr.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchod.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchodFiltr.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportStanow.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienFiltr.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienia.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNowy.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarSprzedazyEdycja.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarySprzedazy.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSieciSprzedazy.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSiecSprzedazyEdycja.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolSprzedazyEdycja.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolySprzedazy.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmStan.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownicy.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownik.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikFunkcje.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikGrupy.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikHaslo.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikPodstawoweDane.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWiadomosci.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWyszukiwanieAdresu.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienia.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowieniaZExcela.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienie.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieINV.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieINVPozycjeExcel.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieOdbiorcy.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZarzadzanieAwizami.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmianaHasla_Tel_Email.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmienHaslo.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwroty.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwrotyBezZamowien.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.Resources.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ToolTipWithImage.resources
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbproj.GenerateResource.Cache
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe.manifest
+E:\SVN\Upfield\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.application
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.config
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.pdb
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.XmlSerializers.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.manifest
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.application
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.XmlSerializers.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.pdb
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Charts.v11.2.Core.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\EPPlus.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Data.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Data.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Data.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Data.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Utils.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Utils.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Utils.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Utils.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraBars.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraBars.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraBars.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraBars.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraCharts.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraCharts.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraCharts.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraCharts.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraEditors.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraEditors.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraEditors.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraEditors.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraLayout.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraLayout.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraLayout.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraLayout.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraReports.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraReports.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraReports.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraReports.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbprojResolveAssemblyReference.cache
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycjeZExcela.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNoweZExcela.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrEdytorTekstu.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrImgGaleria.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrStan.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmResetHasla.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwiz.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwizaDostawa.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodni.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodniFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialow.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialowFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialySkuGrupaObdzielana.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRentownosci.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatach.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatachFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozliczenie.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozliczenieFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportWejsciaWyjscia.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownik.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikPozycjaDodaj.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkosc.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkoscEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdres.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresKopiuj.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresy.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizacje.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizaSzczegoly.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycje.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpd.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpdUprawnienia.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDostawca.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmEdytujSKU.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleria.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleriaDialog.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGlowna.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGrupy.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatDlaUzytkownika.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatyLista.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKontakt.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimity.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimityDodajUzytkownik.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLogowanie.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmMagazyny.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsleterLista.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsletter.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeSystemowe.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeUzytkownikow.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaGrupaNazwa.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaWiadomosc.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikDodaj.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikiDoPobrania.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPobieraniePlikowExcelaZBazy.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPodzialGrupa.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportHistoriiMaterialu.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimity.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimityFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchod.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchodFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportStanow.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienia.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNowy.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarSprzedazyEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarySprzedazy.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSieciSprzedazy.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSiecSprzedazyEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolSprzedazyEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolySprzedazy.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmStan.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownicy.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownik.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikFunkcje.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikGrupy.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikHaslo.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikPodstawoweDane.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWiadomosci.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWyszukiwanieAdresu.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienia.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowieniaZExcela.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienie.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieINV.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieINVPozycjeExcel.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieOdbiorcy.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZarzadzanieAwizami.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmianaHasla_Tel_Email.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmienHaslo.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwroty.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwrotyBezZamowien.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.Resources.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ToolTipWithImage.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbproj.GenerateResource.Cache
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe.manifest
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.application
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.config
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.pdb
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.XmlSerializers.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.manifest
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.application
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.XmlSerializers.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.pdb
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Charts.v11.2.Core.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\EPPlus.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Data.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Data.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Data.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Data.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Utils.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Utils.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Utils.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Utils.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraBars.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraBars.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraBars.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraBars.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraCharts.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraCharts.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraCharts.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraCharts.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraEditors.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraEditors.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraEditors.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraEditors.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraLayout.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraLayout.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraLayout.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraLayout.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraReports.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraReports.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraReports.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraReports.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbprojResolveAssemblyReference.cache
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycjeZExcela.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNoweZExcela.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrEdytorTekstu.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrImgGaleria.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrStan.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmResetHasla.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwiz.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwizaDostawa.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodni.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodniFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialow.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialowFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialySkuGrupaObdzielana.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRentownosci.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatach.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatachFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozliczenie.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozliczenieFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportWejsciaWyjscia.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownik.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikPozycjaDodaj.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkosc.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkoscEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdres.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresKopiuj.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresy.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizacje.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizaSzczegoly.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycje.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpd.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpdUprawnienia.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDostawca.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmEdytujSKU.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleria.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleriaDialog.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGlowna.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGrupy.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatDlaUzytkownika.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatyLista.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKontakt.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimity.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimityDodajUzytkownik.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLogowanie.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmMagazyny.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsleterLista.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsletter.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeSystemowe.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeUzytkownikow.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaGrupaNazwa.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaWiadomosc.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikDodaj.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikiDoPobrania.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPobieraniePlikowExcelaZBazy.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPodzialGrupa.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportHistoriiMaterialu.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimity.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimityFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchod.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchodFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportStanow.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienia.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNowy.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarSprzedazyEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarySprzedazy.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSieciSprzedazy.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSiecSprzedazyEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolSprzedazyEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolySprzedazy.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmStan.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownicy.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownik.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikFunkcje.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikGrupy.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikHaslo.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikPodstawoweDane.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWiadomosci.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWyszukiwanieAdresu.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienia.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowieniaZExcela.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienie.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieINV.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieINVPozycjeExcel.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieOdbiorcy.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZarzadzanieAwizami.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmianaHasla_Tel_Email.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmienHaslo.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwroty.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwrotyBezZamowien.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.Resources.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ToolTipWithImage.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbproj.GenerateResource.Cache
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe.manifest
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.application
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.config
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.pdb
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.XmlSerializers.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.manifest
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.application
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.XmlSerializers.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.pdb
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Charts.v11.2.Core.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\EPPlus.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Data.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Data.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Data.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Data.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.PivotGrid.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.RichEdit.v11.2.Core.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Utils.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Utils.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Utils.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Utils.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraBars.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraBars.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraBars.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraBars.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraCharts.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraCharts.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraCharts.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraCharts.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraEditors.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraEditors.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraEditors.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraEditors.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraLayout.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraLayout.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraLayout.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraLayout.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraNavBar.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPivotGrid.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPrinting.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraReports.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraReports.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraReports.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraReports.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraTreeList.v11.2.resources.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbprojResolveAssemblyReference.cache
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycjeZExcela.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNoweZExcela.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrEdytorTekstu.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrImgGaleria.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrStan.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmResetHasla.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwiz.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwizaDostawa.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodni.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodniFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialow.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialowFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialySkuGrupaObdzielana.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRentownosci.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatach.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatachFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozliczenie.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozliczenieFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportWejsciaWyjscia.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownik.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikPozycjaDodaj.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkosc.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkoscEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdres.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresKopiuj.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresy.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizacje.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizaSzczegoly.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycje.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpd.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpdUprawnienia.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDostawca.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmEdytujSKU.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleria.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleriaDialog.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGlowna.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGrupy.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatDlaUzytkownika.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatyLista.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKontakt.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimity.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimityDodajUzytkownik.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLogowanie.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmMagazyny.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsleterLista.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsletter.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeSystemowe.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeUzytkownikow.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaGrupaNazwa.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaWiadomosc.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikDodaj.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikiDoPobrania.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPobieraniePlikowExcelaZBazy.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPodzialGrupa.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportHistoriiMaterialu.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimity.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimityFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchod.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchodFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportStanow.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienFiltr.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienia.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNowy.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarSprzedazyEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarySprzedazy.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSieciSprzedazy.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSiecSprzedazyEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolSprzedazyEdycja.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolySprzedazy.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmStan.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownicy.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownik.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikFunkcje.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikGrupy.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikHaslo.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikPodstawoweDane.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWiadomosci.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWyszukiwanieAdresu.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienia.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowieniaZExcela.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienie.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieINV.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieINVPozycjeExcel.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieOdbiorcy.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZarzadzanieAwizami.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmianaHasla_Tel_Email.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmienHaslo.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwroty.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwrotyBezZamowien.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.Resources.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ToolTipWithImage.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbproj.GenerateResource.Cache
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe.manifest
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.application
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportTerminowosciFedEx.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportStanowbezGrupy.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialyZamowieniaPerUser.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.config
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe.manifest
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.application
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.exe
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.XmlSerializers.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.pdb
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\CursorProfClient.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\EPPlus.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Data.v11.2.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.PivotGrid.v11.2.Core.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Printing.v11.2.Core.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.RichEdit.v11.2.Core.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.Utils.v11.2.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraBars.v11.2.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraCharts.v11.2.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraEditors.v11.2.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraGrid.v11.2.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraLayout.v11.2.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraNavBar.v11.2.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPivotGrid.v11.2.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraPrinting.v11.2.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraReports.v11.2.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\DevExpress.XtraTreeList.v11.2.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Data.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Data.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Data.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Data.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.PivotGrid.v11.2.Core.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.PivotGrid.v11.2.Core.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.PivotGrid.v11.2.Core.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.PivotGrid.v11.2.Core.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.RichEdit.v11.2.Core.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.RichEdit.v11.2.Core.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.RichEdit.v11.2.Core.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.RichEdit.v11.2.Core.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.Utils.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.Utils.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.Utils.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.Utils.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraBars.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraBars.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraBars.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraBars.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraCharts.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraCharts.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraCharts.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraCharts.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraEditors.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraEditors.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraEditors.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraEditors.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraGrid.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraGrid.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraGrid.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraGrid.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraLayout.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraLayout.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraLayout.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraLayout.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraNavBar.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraNavBar.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraNavBar.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraNavBar.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPivotGrid.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPivotGrid.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPivotGrid.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPivotGrid.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraPrinting.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraPrinting.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraPrinting.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraPrinting.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraReports.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraReports.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraReports.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraReports.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\de\DevExpress.XtraTreeList.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\es\DevExpress.XtraTreeList.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ja\DevExpress.XtraTreeList.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\bin\Release\ru\DevExpress.XtraTreeList.v11.2.resources.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbproj.AssemblyReference.cache
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbproj.SuggestedBindingRedirects.cache
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycjeZExcela.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNoweZExcela.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrEdytorTekstu.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrImgGaleria.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ctrStan.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmResetHasla.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwiz.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportAwizaDostawa.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodni.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPaletodniFiltr.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialow.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialowFiltr.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialySkuGrupaObdzielana.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPodzialyZamowieniaPerUser.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRentownosci.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatach.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportPrzyjeciaPoDatachFiltr.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozliczenie.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozliczenieFiltr.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportStanowbezGrupy.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportTerminowosciFedEx.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportWejsciaWyjscia.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownik.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikPozycjaDodaj.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkosc.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikWielkoscEdycja.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdres.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresKopiuj.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAdresy.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizacje.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizaSzczegoly.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmAwizoDodajPozycje.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpd.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDaneDpdUprawnienia.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmDostawca.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmEdytujSKU.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleria.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGaleriaDialog.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGlowna.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmGrupy.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatDlaUzytkownika.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatEdycja.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKomunikatyLista.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmKontakt.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimity.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLimityDodajUzytkownik.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmLogowanie.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmMagazyny.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsleterLista.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNewsletter.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeSystemowe.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNotyfikacjeUzytkownikow.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaGrupaNazwa.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmNowaWiadomosc.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikDodaj.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPlikiDoPobrania.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPobieraniePlikowExcelaZBazy.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmPodzialGrupa.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportHistoriiMaterialu.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimity.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportLimityFiltr.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchod.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportRozchodFiltr.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportStanow.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienFiltr.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmRaportZamowienia.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSKUNowy.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarSprzedazyEdycja.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikObszarySprzedazy.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSieciSprzedazy.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikSiecSprzedazyEdycja.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolSprzedazyEdycja.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmSlownikZespolySprzedazy.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmStan.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownicy.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownik.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikFunkcje.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikGrupy.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikHaslo.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmUzytkownikPodstawoweDane.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWiadomosci.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmWyszukiwanieAdresu.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienia.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowieniaZExcela.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienie.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieINV.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieINVPozycjeExcel.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZamowienieOdbiorcy.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZarzadzanieAwizami.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmianaHasla_Tel_Email.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZmienHaslo.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwroty.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.frmZwrotyBezZamowien.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.Resources.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.ToolTipWithImage.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbproj.GenerateResource.cache
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbproj.CoreCompileInputs.cache
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe.manifest
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.application
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.vbproj.CopyComplete
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.exe
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.pdb
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfClient\CursorProfClient\obj\x86\Release\CursorProfClient.XmlSerializers.dll

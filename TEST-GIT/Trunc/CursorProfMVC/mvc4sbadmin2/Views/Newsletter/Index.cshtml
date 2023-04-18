@@ -1,0 +1,72 @@
+﻿
+@model PagedList.PagedList<nclprospekt.Models.Newsletter>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@using PagedList.Mvc;
+@using PagedList;
+
+@section scripts{
+<script src="@Url.Content("~/Scripts/custom-newsletter.js")" type="text/javascript"></script>
+   }
+
+<input type="hidden" value="@ViewBag.Message" id="message" />
+<input type="hidden" value="@ViewBag.Mode" id="mode" />
+
+<div class="panel panel-primary panel-block">
+    
+    <div class="panel-heading">
+        
+        <div class="row ">
+            <div class="col-xs-2">
+                <strong style="padding-top:10px">Newsletter</strong>
+            </div>
+            <span class="btn panelTop btnCLEAR pull-right" type="submit" id="btnDodaj"
+            onclick="location.href='@Url.Action("Create", "Newsletter")'">
+            <i class="glyphicon glyphicon-plus-sign"></i>&nbsp; NOWY
+            </span>
+        </div>
+    </div>
+    <div class="panel-footer hidden">
+        <div class="row">
+        <div class="col-sm-2">
+            @Html.TextBox("Część Tytułu", "", new { @class = "form-control" })
+        </div>
+        <span class="btn " type="submit" id="btnDodaj"
+              onclick="location.href='@Url.Action("Create", "Newsletter")'">
+            <i class="glyphicon glyphicon-search"></i>&nbsp; Szukaj
+        </span>
+        </div>
+    </div>
+    <div class="table">
+     
+                @foreach (var news in @Model)
+                {
+                    <div class="row ">
+                        <div class="rectangle ">
+
+                            <div class="data">@news.DataUtworzenia </div>
+
+                            <strong>
+                                @Html.ActionLink(@news.Tytul, "Details", "Newsletter", new { id = @news.NewsletterId }, null)
+                            </strong>
+
+                            <div class="row infoText">
+                               @news.Wiadomosc
+                            </div>
+                       </div>
+
+                    </div>
+                }
+
+        <div class="col-lg-3 pull-right">
+            @Html.PagedListPager(Model,page=>Url.Action("Index",
+                                   new { page,pageSize=Model.PageSize }))
+             @Model.FirstItemOnPage do @Model.LastItemOnPage
+                z @Model.TotalItemCount
+        </div>
+    </div>
+
+</div>

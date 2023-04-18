@@ -1,0 +1,62 @@
+﻿@model nclprospekt.Models.NewsletterDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="panel panel-primary panel-block">
+
+    <div class="panel-heading">
+        <div class="row clearfix">
+            <a href="javascript:history.back()"> <span class="btn btn-circle podMenu btn-primary"><i class="fa fa-arrow-left"></i></span></a>
+            <strong>Newsletter</strong>
+            
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-sm-12">
+                <strong> Utworzone przez: </strong>
+
+                <input type="text" class="form-control"  readonly="readonly"
+                       value="TODO">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <strong> Adresaci: </strong>
+
+                <input type="text" class="form-control" placeholder="Adresaci" readonly="readonly"
+                       value="@string.Join(", ", @*@Model.UzytkownicyNazwy*@"TO DO")">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <strong> Grupy: </strong>
+
+                <input type="text" class="form-control" placeholder="Grupy" readonly="readonly"
+                       value="@string.Join(", ", @*@Model.UzytkonicyGrupy*@"TO DO")">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <strong> Wielkość: </strong>
+
+                <input type="text" class="form-control" placeholder="Wielkosc" readonly
+                       value="@string.Join(", ", @*@Model.UzytkownicyWielkosc*@"TO DO")">
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-xs-12 control-label">
+                <strong> Wiadomość </strong>
+                <textarea class="form-control" rows="15">@Model.Tresc</textarea>
+            </div>
+        </div>
+
+        </div>
+    </div>
+

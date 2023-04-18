@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="VB" CodeBehind="CursorService.asmx.vb" Class="CursorProfServer.CursorService" %>

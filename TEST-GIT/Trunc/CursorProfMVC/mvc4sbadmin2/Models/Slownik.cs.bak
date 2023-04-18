@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace nclprospekt.Models
+{
+    public class Slownik
+    {
+        public Slownik()
+        {
+            Wartosci = new List<SlownikWartosc>();
+        }
+
+        public int SlownikId { get; set; }
+        public string Nazwa { get; set; }
+        public int Edytowalny { get; set; }
+        public List<SlownikWartosc> Wartosci;
+    }
+}

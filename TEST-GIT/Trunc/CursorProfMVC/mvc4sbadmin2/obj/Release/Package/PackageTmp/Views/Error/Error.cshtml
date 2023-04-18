@@ -1,0 +1,30 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+@{
+    ViewBag.Title = "Błąd";
+}
+
+<div class="panel panel-danger">
+    <div class="panel-heading">
+        @ViewBag.Title
+    </div>
+
+    <div class="panel-body">
+        <div class="alert alert-error">
+            Wystąpił niespodziewany błąd. Spróbuj zalogować się ponownie
+        </div>
+        @if (Model != null && HttpContext.Current.IsDebuggingEnabled)
+        {
+            <p>
+                <b>Błąd:</b> @Model.Exception.Message<br />
+                <b>Kontroler:</b> @Model.ControllerName<br />
+                <b>Akcja:</b> @Model.ActionName
+            </p>
+            <div style="overflow:scroll">
+                <pre>
+                @Model.Exception.StackTrace
+                </pre>
+            </div>
+        }
+
+    </div>
+</div>

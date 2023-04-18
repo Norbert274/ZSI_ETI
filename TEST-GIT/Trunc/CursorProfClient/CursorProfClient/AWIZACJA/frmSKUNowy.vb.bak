@@ -1,0 +1,123 @@
+﻿Public Class frmSKUNowy
+    Public dtategorie As DataTable
+    Public dtGrupyArtykulowQ As DataTable
+    Private czy_byl_klik_dodaj As Boolean
+    Private Sub btnAnuluj_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAnuluj.Click
+        Me.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.Close()
+    End Sub
+
+    Private Sub btnDodaj_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnDodaj.Click
+        czy_byl_klik_dodaj = True
+        If Not walidacjaSKU() Then Exit Sub
+        Me.DialogResult = System.Windows.Forms.DialogResult.OK
+        Me.Close()
+    End Sub
+
+    Private Sub frmSKUNowy_Shown(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Shown
+
+        For Each row As DataRow In dtategorie.Rows
+            cmbKategoria.Items.Add(row.Item("nazwa").ToString)
+        Next
+        cmbKategoria.SelectedIndex = 0
+        txtNrSKU.Focus()
+
+        cmbGrupaArtykulow.DataSource = dtGrupyArtykulowQ
+        cmbGrupaArtykulow.ValueMember = "PROD_GROUP_ID"
+        cmbGrupaArtykulow.DisplayMember = "NAZWA"
+        cmbGrupaArtykulow.SelectedValue = -1
+
+    End Sub
+
+    Private Function walidacjaSKU() As Boolean
+        If txtNazwaSku.Text = String.Empty Then
+            MsgBox("Nie wypełniono pola - Nazwa.", MsgBoxStyle.Exclamation, "Pole wymagane")
+            txtNazwaSku.Focus()
+            Return False
+        End If
+        If txtNrSKU.Text = String.Empty Then
+            MsgBox("Nie wypełniono pola - Numer.", MsgBoxStyle.Exclamation, "Pole wymagane")
+            txtNrSKU.Focus()
+            Return False
+        End If
+        If cmbKlasa.SelectedItem <> "A" And cmbKlasa.SelectedItem <> "B" And cmbKlasa.SelectedItem <> "C" Then
+            MsgBox("Nie wybrano Klasy dla nowego produktu.", MsgBoxStyle.Exclamation, "Pole wymagane")
+            cmbKlasa.Focus()
+            Return False
+        End If
+        If cmbKategoria.SelectedIndex < 0 Then
+            MsgBox("Nie wybrano kategorii nowego produktu.", MsgBoxStyle.Exclamation, "Pole wymagane")
+            cmbKategoria.Focus()
+            Return False
+        End If
+
+        '' sprawdzamy czy wybrano grupę artykułów
+        If Not IIf(cmbGrupaArtykulow.SelectedValue Is Nothing, -1, cmbGrupaArtykulow.SelectedValue) > 0 Then
+            MsgBox("Nie wybrano grupy artykułów", MsgBoxStyle.Exclamation, "Brak grupy artykułów")
+            cmbGrupaArtykulow.Focus()
+            Return False
+        End If
+
+        Dim test_int As Integer
+        Dim test_int64 As Int64
+
+        If Not Integer.TryParse(txtLimitLogistyczny.Text, test_int) Then
+            If Int64.TryParse(txtLimitLogistyczny.Text, test_int64) Then
+                MsgBox("Przekroczono maksymalną wartość dla limitu logistycznego: " & Integer.MaxValue & "!", MsgBoxStyle.Critical, Me.Text)
+                txtLimitLogistyczny.Focus()
+                Return False
+            Else
+                MsgBox("Limit logistyczny musi być liczbą całkowitą dodatnią!", MsgBoxStyle.Exclamation, "Pole wymagane")
+                txtLimitLogistyczny.Focus()
+                Return False
+            End If
+        ElseIf test_int < 0 Then
+            MsgBox("Limit logistyczny musi być liczbą całkowitą dodatnią!", MsgBoxStyle.Exclamation, "Pole wymagane")
+            txtLimitLogistyczny.Focus()
+            Return False
+
+        End If
+
+        Return True
+    End Function
+
+    Private Sub txtNazwaSku_Validated(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtNazwaSku.Validated
+        If czy_byl_klik_dodaj Then
+
+            If txtNazwaSku.Text = String.Empty Then
+                txtNazwaSku.BackColor = Color.LightCoral
+                txtNazwaSku.ForeColor = Color.White
+            Else
+                txtNazwaSku.BackColor = Color.White
+                txtNazwaSku.ForeColor = Color.Black
+            End If
+
+        End If
+    End Sub
+
+    Private Sub txtNrSKU_Validated(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtNrSKU.Validated
+        If czy_byl_klik_dodaj Then
+            If txtNrSKU.Text = String.Empty Then
+                txtNrSKU.BackColor = Color.LightCoral
+                txtNrSKU.ForeColor = Color.White
+            Else
+                txtNrSKU.BackColor = Color.White
+                txtNrSKU.ForeColor = Color.Black
+            End If
+        End If
+    End Sub
+
+    Private Sub cmbKlasa_Validated(ByVal sender As Object, ByVal e As System.EventArgs) Handles cmbKlasa.Validated
+        If czy_byl_klik_dodaj Then
+            If cmbKlasa.SelectedItem = String.Empty Then
+                cmbKlasa.BackColor = Color.LightCoral
+                cmbKlasa.ForeColor = Color.White
+            Else
+                cmbKlasa.BackColor = Color.White
+                cmbKlasa.ForeColor = Color.Black
+            End If
+        End If
+    End Sub
+
+    
+End Class

@@ -1,0 +1,190 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frmSKUNowy
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtNrSKU = New System.Windows.Forms.TextBox()
+        Me.txtNazwaSku = New System.Windows.Forms.TextBox()
+        Me.cmbKlasa = New System.Windows.Forms.ComboBox()
+        Me.btnDodaj = New System.Windows.Forms.Button()
+        Me.btnAnuluj = New System.Windows.Forms.Button()
+        Me.cmbKategoria = New System.Windows.Forms.ComboBox()
+        Me.lblKategoria = New System.Windows.Forms.Label()
+        Me.txtLimitLogistyczny = New System.Windows.Forms.TextBox()
+        Me.lblLimitLogistyczny = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(7, 55)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(41, 13)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Numer:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(7, 11)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(43, 13)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Nazwa:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(7, 108)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(36, 13)
+        Me.Label3.TabIndex = 6
+        Me.Label3.Text = "Klasa:"
+        '
+        'txtNrSKU
+        '
+        Me.txtNrSKU.Location = New System.Drawing.Point(98, 52)
+        Me.txtNrSKU.Name = "txtNrSKU"
+        Me.txtNrSKU.Size = New System.Drawing.Size(209, 20)
+        Me.txtNrSKU.TabIndex = 3
+        '
+        'txtNazwaSku
+        '
+        Me.txtNazwaSku.Location = New System.Drawing.Point(98, 8)
+        Me.txtNazwaSku.Multiline = True
+        Me.txtNazwaSku.Name = "txtNazwaSku"
+        Me.txtNazwaSku.Size = New System.Drawing.Size(334, 38)
+        Me.txtNazwaSku.TabIndex = 1
+        '
+        'cmbKlasa
+        '
+        Me.cmbKlasa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbKlasa.FormattingEnabled = True
+        Me.cmbKlasa.Items.AddRange(New Object() {"A", "B", "C"})
+        Me.cmbKlasa.Location = New System.Drawing.Point(98, 105)
+        Me.cmbKlasa.Name = "cmbKlasa"
+        Me.cmbKlasa.Size = New System.Drawing.Size(63, 21)
+        Me.cmbKlasa.TabIndex = 7
+        '
+        'btnDodaj
+        '
+        Me.btnDodaj.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnDodaj.BackColor = System.Drawing.Color.DodgerBlue
+        Me.btnDodaj.ForeColor = System.Drawing.Color.White
+        Me.btnDodaj.Location = New System.Drawing.Point(346, 152)
+        Me.btnDodaj.Name = "btnDodaj"
+        Me.btnDodaj.Size = New System.Drawing.Size(86, 25)
+        Me.btnDodaj.TabIndex = 11
+        Me.btnDodaj.Text = "Dodaj"
+        Me.btnDodaj.UseVisualStyleBackColor = False
+        '
+        'btnAnuluj
+        '
+        Me.btnAnuluj.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnAnuluj.BackColor = System.Drawing.Color.DodgerBlue
+        Me.btnAnuluj.ForeColor = System.Drawing.Color.White
+        Me.btnAnuluj.Location = New System.Drawing.Point(265, 152)
+        Me.btnAnuluj.Name = "btnAnuluj"
+        Me.btnAnuluj.Size = New System.Drawing.Size(75, 25)
+        Me.btnAnuluj.TabIndex = 10
+        Me.btnAnuluj.Text = "Anuluj"
+        Me.btnAnuluj.UseVisualStyleBackColor = False
+        '
+        'cmbKategoria
+        '
+        Me.cmbKategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbKategoria.FormattingEnabled = True
+        Me.cmbKategoria.Items.AddRange(New Object() {"A", "B", "C"})
+        Me.cmbKategoria.Location = New System.Drawing.Point(98, 78)
+        Me.cmbKategoria.Name = "cmbKategoria"
+        Me.cmbKategoria.Size = New System.Drawing.Size(209, 21)
+        Me.cmbKategoria.TabIndex = 5
+        '
+        'lblKategoria
+        '
+        Me.lblKategoria.AutoSize = True
+        Me.lblKategoria.Location = New System.Drawing.Point(7, 81)
+        Me.lblKategoria.Name = "lblKategoria"
+        Me.lblKategoria.Size = New System.Drawing.Size(55, 13)
+        Me.lblKategoria.TabIndex = 4
+        Me.lblKategoria.Text = "Kategoria:"
+        '
+        'txtLimitLogistyczny
+        '
+        Me.txtLimitLogistyczny.Location = New System.Drawing.Point(98, 132)
+        Me.txtLimitLogistyczny.MaxLength = 10
+        Me.txtLimitLogistyczny.Name = "txtLimitLogistyczny"
+        Me.txtLimitLogistyczny.Size = New System.Drawing.Size(63, 20)
+        Me.txtLimitLogistyczny.TabIndex = 9
+        '
+        'lblLimitLogistyczny
+        '
+        Me.lblLimitLogistyczny.AutoSize = True
+        Me.lblLimitLogistyczny.Location = New System.Drawing.Point(7, 135)
+        Me.lblLimitLogistyczny.Name = "lblLimitLogistyczny"
+        Me.lblLimitLogistyczny.Size = New System.Drawing.Size(85, 13)
+        Me.lblLimitLogistyczny.TabIndex = 8
+        Me.lblLimitLogistyczny.Text = "Limit logistyczny:"
+        '
+        'frmSKUNowy
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(438, 182)
+        Me.Controls.Add(Me.txtLimitLogistyczny)
+        Me.Controls.Add(Me.lblLimitLogistyczny)
+        Me.Controls.Add(Me.cmbKategoria)
+        Me.Controls.Add(Me.lblKategoria)
+        Me.Controls.Add(Me.btnAnuluj)
+        Me.Controls.Add(Me.btnDodaj)
+        Me.Controls.Add(Me.cmbKlasa)
+        Me.Controls.Add(Me.txtNazwaSku)
+        Me.Controls.Add(Me.txtNrSKU)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(454, 220)
+        Me.MinimumSize = New System.Drawing.Size(454, 187)
+        Me.Name = "frmSKUNowy"
+        Me.Text = "Nowy produkt"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents txtNrSKU As System.Windows.Forms.TextBox
+    Friend WithEvents txtNazwaSku As System.Windows.Forms.TextBox
+    Friend WithEvents cmbKlasa As System.Windows.Forms.ComboBox
+    Friend WithEvents btnDodaj As System.Windows.Forms.Button
+    Friend WithEvents btnAnuluj As System.Windows.Forms.Button
+    Friend WithEvents cmbKategoria As System.Windows.Forms.ComboBox
+    Friend WithEvents lblKategoria As System.Windows.Forms.Label
+    Friend WithEvents txtLimitLogistyczny As System.Windows.Forms.TextBox
+    Friend WithEvents lblLimitLogistyczny As System.Windows.Forms.Label
+End Class

@@ -1,0 +1,1054 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA353812-3E4F-4197-B181-311325DBC87D}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nclprospekt</RootNamespace>
+    <AssemblyName>nclprospekt</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PublishDatabases>false</PublishDatabases>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper">
+      <HintPath>..\packages\Dapper.1.38\lib\net40\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.1\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.4\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.2.0.0\lib\net40\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Web.Common">
+      <HintPath>..\packages\Ninject.Web.Common.3.2.0.0\lib\net40-full\Ninject.Web.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Web.Mvc">
+      <HintPath>..\packages\Ninject.MVC4.3.2.1.0\lib\net40-full\Ninject.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.40804.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebActivatorEx">
+      <HintPath>..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\DisplayModes.cs" />
+    <Compile Include="App_Start\NinjectWebCommon.cs" />
+    <Compile Include="ControllersHelper\ProductValidator.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AwizoController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\MessageController.cs" />
+    <Compile Include="Controllers\PomocController.cs" />
+    <Compile Include="Controllers\UstawieniaApiController.cs" />
+    <Compile Include="Controllers\UstawieniaController.cs" />
+    <Compile Include="Controllers\KoszykController.cs" />
+    <Compile Include="Controllers\StanyController.cs" />
+    <Compile Include="Controllers\StanyApiController.cs" />
+    <Compile Include="Controllers\ZamowieniaApiController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\ZamowienieController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\CustomAuthorize.cs" />
+    <Compile Include="DAL\CustomExceptionFilter.cs" />
+    <Compile Include="JDataTables\Column.cs" />
+    <Compile Include="JDataTables\ColumnCollection.cs" />
+    <Compile Include="JDataTables\DataTablesBinder.cs" />
+    <Compile Include="JDataTables\DataTablesJsonBinder.cs" />
+    <Compile Include="JDataTables\DataTablesRequest.cs" />
+    <Compile Include="JDataTables\DataTablesResponse.cs" />
+    <Compile Include="JDataTables\IDataTablesRequest.cs" />
+    <Compile Include="JDataTables\NameValueCollectionExtensions.cs" />
+    <Compile Include="JDataTables\Search.cs" />
+    <Compile Include="Models\Adres.cs" />
+    <Compile Include="Models\Adresaci.cs" />
+    <Compile Include="Models\Awizo.cs" />
+    <Compile Include="Models\Dashboard.cs" />
+    <Compile Include="Models\Funkcja.cs" />
+    <Compile Include="Models\Kontakt.cs" />
+    <Compile Include="Models\LimtUzytkownik.cs" />
+    <Compile Include="Models\NCLObjects.cs" />
+    <Compile Include="Models\Newsletter.cs" />
+    <Compile Include="Models\NewsletterDetail.cs" />
+    <Compile Include="Models\Notyfikacja.cs" />
+    <Compile Include="Models\Pomoc.cs" />
+    <Compile Include="Models\Slownik.cs" />
+    <Compile Include="Models\SlownikWartosc.cs" />
+    <Compile Include="Models\Stany.cs" />
+    <Compile Include="Objects\SecurityToken.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NoCacheAttribute.cs" />
+    <Compile Include="Controllers\UzytkownikController.cs" />
+    <Compile Include="DAL\Helpers.cs" />
+    <Compile Include="DAL\InvalidParameterTypeException.cs" />
+    <Compile Include="Exceptions\SesjaException.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\NCLMembershipProvider.cs" />
+    <Compile Include="Models\NCLRoleProvider.cs" />
+    <Compile Include="Models\Grupa.cs" />
+    <Compile Include="Models\Membership.cs" />
+    <Compile Include="Models\Zamowienie.cs" />
+    <Compile Include="Models\Login.cs" />
+    <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\Uzytkownik.cs" />
+    <Compile Include="Models\ZamowienieTyp.cs" />
+    <Compile Include="Objects\Display.cs" />
+    <Compile Include="Objects\IDisplay.cs" />
+    <Compile Include="Objects\ObjectItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RepositoryHelper\ZamowienieHelper.cs" />
+    <Compile Include="Repository\AdresaciRepository.cs" />
+    <Compile Include="Repository\AwizoRepository.cs" />
+    <Compile Include="Repository\DashboardRepository.cs" />
+    <Compile Include="Repository\IAdresaciRepository.cs" />
+    <Compile Include="Repository\IAdresRepository.cs" />
+    <Compile Include="Repository\AdresRepository.cs" />
+    <Compile Include="Repository\IAwizoRepository.cs" />
+    <Compile Include="Repository\IDashboardRepository.cs" />
+    <Compile Include="Repository\IPomocRepository.cs" />
+    <Compile Include="Repository\PomocRepository.cs" />
+    <Compile Include="Repository\StanyRepository.cs" />
+    <Compile Include="Repository\IStanyRepository.cs" />
+    <Compile Include="Repository\IZamowienieRepository.cs" />
+    <Compile Include="Repository\IRoleRepository.cs" />
+    <Compile Include="Repository\IUzytkownikRepository.cs" />
+    <Compile Include="Repository\ZamowienieRepository.cs" />
+    <Compile Include="Repository\RoleRepository.cs" />
+    <Compile Include="Repository\UzytkownikRepository.cs" />
+    <Compile Include="Utils\nclHelper.cs" />
+    <Compile Include="Utils\NinjectDependencyResolver.cs" />
+    <Compile Include="Utils\TextMediaTypeFormater.cs" />
+    <Compile Include="Utils\ValidateAjaxAntiforgeryToken.cs" />
+    <Compile Include="Validation\Validation.cs" />
+    <Compile Include="Validation\ValidationErros.cs" />
+    <Compile Include="Validation\ValidationRules.cs" />
+    <Compile Include="Web References\NCL_WS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Content\bootstrap-datepicker.css" />
+    <Content Include="Content\bootstrap-datepicker.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\custom.css" />
+    <Content Include="Content\font-awesome-4.1.0\css\font-awesome.css" />
+    <Content Include="Content\font-awesome-4.1.0\css\font-awesome.min.css" />
+    <Content Include="Content\font-awesome-4.1.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\images\area0.png" />
+    <Content Include="Content\images\background.png" />
+    <Content Include="Content\images\back_disabled.png" />
+    <Content Include="Content\images\back_enabled.png" />
+    <Content Include="Content\images\back_enabled_hover.png" />
+    <Content Include="Content\images\bar0.png" />
+    <Content Include="Content\images\favicon.ico" />
+    <Content Include="Content\images\forward_disabled.png" />
+    <Content Include="Content\images\forward_enabled.png" />
+    <Content Include="Content\images\forward_enabled_hover.png" />
+    <Content Include="Content\images\line0.png" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\not-available.png" />
+    <Content Include="Content\images\sb-admin.png" />
+    <Content Include="Content\images\sort_asc.png" />
+    <Content Include="Content\images\sort_asc_disabled.png" />
+    <Content Include="Content\images\sort_both.png" />
+    <Content Include="Content\images\sort_desc.png" />
+    <Content Include="Content\images\sort_desc_disabled.png" />
+    <Content Include="Content\images\stacked_bar0.png" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="Content\plugins\dataTables.bootstrap.css" />
+    <Content Include="Content\plugins\dataTables.bootstrap.min.css" />
+    <Content Include="Content\plugins\dataTables.tableTools.css" />
+    <Content Include="Content\plugins\fixedHeader.bootstrap.css" />
+    <Content Include="Content\plugins\fixedHeader.bootstrap.min.css" />
+    <Content Include="Content\plugins\fixedHeader.dataTables.css" />
+    <Content Include="Content\plugins\fixedHeader.dataTables.min.css" />
+    <Content Include="Content\plugins\jquery.dataTables.css" />
+    <Content Include="Content\plugins\jquery.dataTables.min.css" />
+    <Content Include="Content\plugins\metisMenu.min.css" />
+    <Content Include="Content\plugins\morris.css" />
+    <Content Include="Content\plugins\responsive.bootstrap.css" />
+    <Content Include="Content\plugins\responsive.bootstrap.min.css" />
+    <Content Include="Content\plugins\responsive.dataTables.css" />
+    <Content Include="Content\plugins\responsive.dataTables.min.css" />
+    <Content Include="Content\plugins\select2.css" />
+    <Content Include="Content\plugins\select2.min.css" />
+    <Content Include="Content\sb-admin-2.css" />
+    <Content Include="Content\plugins\dataTables.fontAwesome.css" />
+    <Content Include="Content\timeline.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap-datepicker-pl.js" />
+    <Content Include="Scripts\bootstrap-datepicker.js" />
+    <Content Include="Scripts\bootstrap-datepicker.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrapPager.js" />
+    <Content Include="Scripts\bootstrapPager.min.js" />
+    <Content Include="Scripts\custom-adres.js" />
+    <Content Include="Scripts\custom-adresaci.js" />
+    <Content Include="Scripts\custom-awizo.js" />
+    <Content Include="Scripts\custom-kontakt.js" />
+    <Content Include="Scripts\custom-koszyk.js" />
+    <Content Include="Scripts\custom-stany.js" />
+    <Content Include="Scripts\custom-uzytkownik.js" />
+    <Content Include="Scripts\custom-zamowienie.js" />
+    <Content Include="Scripts\custom.js" />
+    <Content Include="Scripts\jquery-2.1.3-vsdoc.js" />
+    <Content Include="Scripts\jquery-2.1.3.js" />
+    <Content Include="Scripts\jquery-2.1.3.min.js" />
+    <Content Include="Content\font-awesome-4.1.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\font-awesome-4.1.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\font-awesome-4.1.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\font-awesome-4.1.0\fonts\FontAwesome.otf" />
+    <None Include="Content\font-awesome-4.1.0\less\bordered-pulled.less" />
+    <None Include="Content\font-awesome-4.1.0\less\core.less" />
+    <None Include="Content\font-awesome-4.1.0\less\fixed-width.less" />
+    <None Include="Content\font-awesome-4.1.0\less\font-awesome.less" />
+    <None Include="Content\font-awesome-4.1.0\less\icons.less" />
+    <None Include="Content\font-awesome-4.1.0\less\larger.less" />
+    <None Include="Content\font-awesome-4.1.0\less\list.less" />
+    <None Include="Content\font-awesome-4.1.0\less\mixins.less" />
+    <None Include="Content\font-awesome-4.1.0\less\path.less" />
+    <None Include="Content\font-awesome-4.1.0\less\rotated-flipped.less" />
+    <None Include="Content\font-awesome-4.1.0\less\spinning.less" />
+    <None Include="Content\font-awesome-4.1.0\less\stacked.less" />
+    <None Include="Content\font-awesome-4.1.0\less\variables.less" />
+    <None Include="Content\font-awesome-4.1.0\scss\font-awesome.scss" />
+    <None Include="Content\font-awesome-4.1.0\scss\_bordered-pulled.scss" />
+    <None Include="Content\font-awesome-4.1.0\scss\_core.scss" />
+    <None Include="Content\font-awesome-4.1.0\scss\_fixed-width.scss" />
+    <None Include="Content\font-awesome-4.1.0\scss\_icons.scss" />
+    <None Include="Content\font-awesome-4.1.0\scss\_larger.scss" />
+    <None Include="Content\font-awesome-4.1.0\scss\_list.scss" />
+    <None Include="Content\font-awesome-4.1.0\scss\_mixins.scss" />
+    <None Include="Content\font-awesome-4.1.0\scss\_path.scss" />
+    <None Include="Content\font-awesome-4.1.0\scss\_rotated-flipped.scss" />
+    <None Include="Content\font-awesome-4.1.0\scss\_spinning.scss" />
+    <None Include="Content\font-awesome-4.1.0\scss\_stacked.scss" />
+    <None Include="Content\font-awesome-4.1.0\scss\_variables.scss" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Content\images\Sorting icons.psd" />
+    <Content Include="Content\language\datatables_polish_lang.txt" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Properties\PublishProfiles\Serwer testowy.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\moment-with-locales.js" />
+    <Content Include="Scripts\moment-with-locales.min.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\plugins\DataTables\dataTables.bootstrap.js" />
+    <Content Include="Scripts\plugins\DataTables\dataTables.bootstrap.min.js" />
+    <Content Include="Scripts\plugins\DataTables\dataTables.fixedHeader.js" />
+    <Content Include="Scripts\plugins\DataTables\dataTables.fixedHeader.min.js" />
+    <Content Include="Scripts\plugins\DataTables\dataTables.fnGetHiddenNodes.custom.js" />
+    <Content Include="Scripts\plugins\DataTables\dataTables.responsive.js" />
+    <Content Include="Scripts\plugins\DataTables\dataTables.responsive.min.js" />
+    <Content Include="Scripts\plugins\DataTables\dataTables.tableTools.js" />
+    <Content Include="Scripts\plugins\DataTables\input.js" />
+    <Content Include="Scripts\plugins\DataTables\jquery.dataTables.js" />
+    <Content Include="Scripts\plugins\DataTables\jquery.dataTables.min.js" />
+    <Content Include="Scripts\plugins\jqueryMobile\jquery.mobile.custom.js" />
+    <Content Include="Scripts\plugins\jqueryMobile\jquery.mobile.custom.min.js" />
+    <Content Include="Scripts\plugins\metisMenu\metisMenu.js" />
+    <Content Include="Scripts\plugins\morris\morris.js" />
+    <Content Include="Scripts\plugins\noty\jquery.noty.js" />
+    <Content Include="Scripts\plugins\noty\jquery.noty.packaged.min.js" />
+    <Content Include="Scripts\raphael-min.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\sb-admin-2.js" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Zamowienie\Index.cshtml" />
+    <Content Include="Views\Stany\Index.cshtml" />
+    <Content Include="Views\Ustawienia\Index.cshtml" />
+    <Content Include="Views\Ustawienia\Create.cshtml" />
+    <Content Include="Views\Ustawienia\Edit.cshtml" />
+    <Content Include="Views\Ustawienia\Delete.cshtml" />
+    <Content Include="Views\Shared\_UserMenuPartial.cshtml" />
+    <Content Include="Views\Shared\_GuestMenuPartial.cshtml" />
+    <Content Include="Views\Koszyk\Edit.cshtml" />
+    <Content Include="Views\Shared\_ChangePasswordPartial.cshtml" />
+    <Content Include="Views\Zamowienie\Index.Mobile.cshtml" />
+    <Content Include="Views\Ustawienia\Create.Mobile.cshtml" />
+    <Content Include="Views\Ustawienia\Delete.Mobile.cshtml" />
+    <Content Include="Views\Ustawienia\Edit.Mobile.cshtml" />
+    <Content Include="Views\Ustawienia\Index.Mobile.cshtml" />
+    <Content Include="Views\_ViewStart.Mobile.cshtml" />
+    <Content Include="Views\Zamowienie\ViewZamDetails.cshtml" />
+    <Content Include="Views\Zamowienie\ViewZamDetails.Mobile.cshtml" />
+    <Content Include="Views\Stany\Index.Mobile.cshtml" />
+    <Content Include="Views\Stany\ViewProductDetails.cshtml" />
+    <Content Include="Views\Stany\ViewProductDetails.Mobile.cshtml" />
+    <Content Include="Views\Message\TempMessage.cshtml" />
+    <Content Include="Views\Uzytkownik\Edit.cshtml" />
+    <Content Include="Views\Uzytkownik\Notyfikacje.cshtml" />
+    <Content Include="Views\Awizo\DostawcaSzczegoly.cshtml" />
+    <Content Include="Views\Awizo\Edit.cshtml" />
+    <Content Include="Views\Awizo\Index.cshtml" />
+    <Content Include="Views\Awizo\Preview.cshtml" />
+    <Content Include="Views\Awizo\ProduktyLista.cshtml" />
+    <Content Include="Views\Stany\ProductPhotos.cshtml" />
+    <Content Include="Views\Error\Error.cshtml" />
+    <Content Include="Views\Error\NotFound.cshtml" />
+    <Content Include="Views\Koszyk\AdresyZdefiniowaneUzytkownika.cshtml" />
+    <Content Include="Views\Koszyk\ZamowienieAdresyKurier.cshtml" />
+    <Content Include="Views\Koszyk\ZamowienieAdresZdefiniowany.cshtml" />
+    <Content Include="Views\Pomoc\Contact.cshtml" />
+    <Content Include="Views\Pomoc\FilesDownload.cshtml" />
+    <Content Include="Views\Pomoc\Help.cshtml" />
+    <Content Include="Views\Account\ForgottenPassword.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Scripts\moment.min.js.map" />
+    <Content Include="Scripts\moment-with-locales.min.js.map" />
+    <None Include="Web References\NCL_WS\AdresEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\AdresEdytujZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\AdresKopiujUserWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\AdresStronaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\AdresUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\AdresyKopiujFiltryWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\AdresyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\AdresySkopiowaneZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\AdresyZamowieniaOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\AnulujZamowienieWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\AwizaListaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\AwizaSzczegolyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\AwizoAnulujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\AwizoUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\AwizoWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\AwizoPrzygotujZwrotWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\AwizoTypyDostawQguarWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\AwizoZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\AwizoZatwierdzWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\cursorservice.disco" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\cursorservice.wsdl" />
+    <None Include="Web References\NCL_WS\CzyBiuroWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\CzyIstniejaWszystkieSkuWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\CzyUserOddzialWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\DostawcaEdycjaZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\DostawcaSzczegolyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\DostawcaUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\DostawcyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\DostawyGwarantowaneTypyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\FunkcjaListaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\GrupaListaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\GrupaUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\GrupyDodajNowaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\GrupyEdycjaWybranaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\GrupyPokazWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\GrupyZamowieniaExcelOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\KategorieSkuOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\KodyPocztoweDpdWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\KodyPocztoweOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\KodyPocztoweWieleSprawdzWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\KomunikatEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\KomunikatGrupyPrzypiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\KomunikatGrupyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\KomunikatUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\KomunikatyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\KontaktMailWyslijWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\KoszykINVZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\KoszykINVZatwierdzWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\KoszykZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\KoszykZatwierdzWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\MagazynDomyslnyWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\MagazynyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\MinimalnaDataRealizacjiWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\NewsleterListaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\NewsleterOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\NewsleterWyslijWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\NotyfikacjeOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\NotyfikacjeSystemoweZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\NotyfikacjeZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\OddzialyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\ParametrWartoscPobierzWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\PierwszeLogowanieWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\PlikExcelZakladanieSkuZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\PlikiDoPobraniaListaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\PlikiDoPobraniaUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\PlikiExcelaZamowieniaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\PlikZamowieniaExcelPobierzWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\PlikZamowieniaExcelZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\PobierzPlikWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\PodajSkuIdZSKUWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\PodzialGrupaOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\PodzialGrupaZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\RaportAwizWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\RaportAwizaDostawaFiltrWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\RaportAwizDostawaGenerujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\RaportHistoriiMaterialuWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\RaportLimityWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\RaportPaletodniWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\RaportPodzialySkuGrupaObdzielanaGenerujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\RaportPodzialySkuGrupaObdzielanaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\RaportPodzialyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\RaportPrzyjeciaPoDatachWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\RaportRentownosciWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\RaportRozchodyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\RaportStanWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\RaportWejsciaWyjsciaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\RaportZamowieniaDaneUzytkownikaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\RaportZamowieniaPozycjeWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\RaportZamowieniaRozliczenieWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\RaportZamowieniaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\NCL_WS\SKUEdytujFiltryWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SKUEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SKUEdytujZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SkuListaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SkuStanFiltryWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SkuUsunWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SkuUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SKUWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikListaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikObszarSprzedazyEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikObszarSprzedazyUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikObszarySprzedazyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikSieciSprzedazyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikSiecSprzedazyEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikSiecSprzedazyUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\SlownikWielkoscEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\SlownikWielkoscOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\SlownikWielkoscUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\SlownikWartoscEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikWartoscKilkaDodajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikWartoscUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikWartoscWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikZespolSprzedazyEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikZespolSprzedazyUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SlownikZespolySprzedazyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\SprawdzFunkcjeWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\StanMagazynSkuGrupaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\StanSkuGrupaINVWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\StanSkuGrupaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\StanSkuWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\StanWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\StatystykiWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UserDaneDpdWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UserDaneDpdZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UserEdytujPodstawoweDaneZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UserEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UserEdytujZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UserLimityWczytajWybranychWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UserLimityWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UserLimityZapiszWybranymWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UserLimityZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\UserResetHaslaGenerujTokenWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <Content Include="Web References\NCL_WS\UserResetHaslaUstawNoweHasloWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\UserRolaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UserStronaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UserUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UserWielkoscTypWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\UsunAtachmentWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\utworzMiniatureWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\UzytkownikDaneWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\WiadomoscDodajNowaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\WiadomosciListaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\WiadomoscUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\WyslijAtachmentWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZalogujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZalozNowyProduktQGUARWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZamowienieDaneDpdWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\ZamowienieINVWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\ZamowienieOdbiorcyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZamowienieRoboczeUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <Content Include="Web References\NCL_WS\ZamowienieStatusyListaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web References\NCL_WS\ZamowienieStronaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZamowienieWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZapiszAtachmentWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZapiszMiniaturkeWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZdjeciaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZdjecieDodajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZdjecieOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZdjecieUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZmienHasloTelEmailWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZmienHasloUzytkownikaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZmienHasloWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZwrotyBezZamowienWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZwrotyBezZamowienWczytajZamowieniaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZwrotyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZwrotyZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NCL_WS\ZwrotZamowieniePrzypiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Scripts\jquery-2.1.3.min.map" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\Date.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\DateTime.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\Date.cshtml" />
+    <Content Include="Views\Shared\EditorTemplates\DateTime.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_Grupa.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Manage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://upfield.oexebusiness.com/CursorService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\NCL_WS\</RelPath>
+      <UpdateFromURL>https://upfield.oexebusiness.com/CursorService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>nclprospekt_NCL_WS_CursorService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Messages.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5548</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:5548/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>https://ncl-prospekt-test.cursor.pl</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

@@ -1,0 +1,72 @@
+﻿@model nclprospekt.Models.ProduktDetailsWO
+
+@{
+    ViewBag.Title = "Detale produktu";
+}
+@ViewBag.Message
+
+@Html.Action(actionName: "ProductPhotos", controllerName: "Stany")
+
+    <input id="product_sku_id" style="display:none" value="@Model.produkt.SKU_ID" />
+    <input id="product_grupa_id" style="display:none" value="@Model.produkt.GRUPA_ID" />
+
+    <div class="form-group col-md-5">
+    @Html.LabelFor(model => model.produkt.SKU)
+    <input id="product_sku" class="form-control" readonly="readonly" value="@Model.produkt.SKU" />
+    </div>
+
+<div class="form-group col-md-5">
+    @Html.LabelFor(model => model.produkt.GRUPA)
+    <input id="product_grupa" class="form-control" readonly="readonly" value="@Model.produkt.GRUPA" />
+</div>
+
+<div class="form-group col-md-5">
+    @Html.LabelFor(model => model.produkt.Koszt_punktowy)
+    <input id="product_Koszt_punktowy" class="form-control" readonly="readonly" value="@Model.produkt.Koszt_punktowy" />
+</div>
+
+<div class="form-group col-md-12">
+    <label for="product_nazwa">Nazwa</label>     <input id="product_nazwa" class="form-control" readonly="readonly" value="@Model.produkt.NAZWA" />
+</div>
+
+
+
+<div class="form-group col-md-5">
+    @Html.LabelFor(model => model.produkt.LIMIT_LOGISTYCZNY)
+    <input id="product_limit" class="form-control" readonly="readonly" value="@Model.produkt.LIMIT_LOGISTYCZNY" />
+</div>
+
+    <div class="form-group col-md-5">
+    @Html.LabelFor(model => model.produkt.DOSTEPNE)
+    <input id="product_dostepne" class="form-control" readonly="readonly" value="@Model.produkt.DOSTEPNE" />
+    </div>
+
+    <div class="form-group col-md-2">
+    @Html.LabelFor(model => model.produkt.JM)
+    <input id="product_jm" class="form-control" readonly="readonly" value="@Model.produkt.JM" />
+    </div>
+
+    @*<div class="form-group">
+            <label for="product_sposob_pakowania">Sposób pakowania: </label> <input id="product_sposob_pakowania" class="form-control" readonly="readonly" value="@Model.produkt.SPOSOB_PAKOWANIA" />
+        </div>*@
+
+
+
+    <div class="form-group col-md-12" style="max-width: 250px">
+        <label for="product_ilosc">Ilość do zamówienia: </label>
+    <div class="input-group">
+
+        <span type="button" class="spinQty btn up btn-info input-group-addon">
+            @*Uwaga - Value to jest ID wiersza, nie zmieniać!*@ <i class="fa fa-plus"></i>
+        </span>
+        
+            <input type="number" id="product_ilosc" class="form-control sprawdzane wartoscSum ilosc-select" value="0" min=0 max=@Model.produkt.DOSTEPNE  />
+        @*@Html.TextBoxFor(model => Model.zamowieniePozycje[i].ilosc, new { @class = "sprawdzane wartoscSum", style = "max-width:40px" })>*@
+        <span type="button" class="spinQty btn down btn-danger input-group-addon">
+            @*Uwaga - Value to jest ID wiersza, nie zmieniać!*@ <i class="fa fa-minus"></i>
+        </span>
+
+    </div>
+
+</div>
+

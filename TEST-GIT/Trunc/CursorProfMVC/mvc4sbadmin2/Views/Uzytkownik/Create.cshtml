@@ -1,0 +1,184 @@
+﻿@model nclprospekt.Models.UzytkownikDoListy
+
+@{
+    ViewBag.Title = "Create";
+}
+
+@section scripts {
+   
+<link href="~/Scripts/plugins/sumoselect/sumoselect.css" rel="stylesheet" />
+<script src="~/Scripts/plugins/sumoselect/jquery.sumoselect.min.js"></script>
+
+<script src="~/Scripts/custom-UzytkownikCreate.js"></script>
+
+}
+
+<br />
+<div class="col-md-4 col-md-offset-4">
+
+
+    <div class="panel panel-primary panel-block">
+        <div class="panel-heading">
+            Uzytkownik
+        </div>
+
+        <div class="panel-body">
+            @using (Html.BeginForm())
+                        {
+                <div class="col-xs-12">
+
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+
+                </div>
+                <!-- ** Strona 1 Start** -->
+                <div id="strona1">
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Imie)
+                        @Html.TextBoxFor(model => model.Imie, new { @class = "form-control strona1", autofocus = "" })
+                        @Html.ValidationMessageFor(model => model.Imie)
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Nazwisko)
+                        @Html.TextBoxFor(model => model.Nazwisko, new { @class = "form-control strona1", autofocus = "" })
+                        @Html.ValidationMessageFor(model => model.Nazwisko)
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Nazwa)
+                        @Html.TextBoxFor(model => model.Nazwa, new { @class = "form-control strona1", autofocus = "" })
+                        @Html.ValidationMessageFor(model => model.Nazwa)
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.TelefonKomorkowy)
+                        @Html.TextBoxFor(model => model.TelefonKomorkowy, new { @class = "form-control strona1", autofocus = "" })
+                        @Html.ValidationMessageFor(model => model.TelefonKomorkowy)
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Email)
+                        @Html.TextBoxFor(model => model.Email, new { @class = "form-control strona1", autofocus = "" })
+                        @Html.ValidationMessageFor(model => model.Email)
+                    </div>
+
+                    
+
+                    <div>
+                        <span class='stop btn btn-default btn-sm disabled'> <i class='glyphicon glyphicon-chevron-left'></i> </span>
+                        <span class='stop btn btn-default btn-sm' id="strona1next"> <i class='glyphicon glyphicon-chevron-right'></i> </span>
+                    </div>
+                </div>
+                <!-- ** Strona 1 END** -->
+                <!-- ** Strona 2 Start** -->
+                <div id="strona2" class="hidden">
+
+
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Login)
+                        @Html.TextBoxFor(model => model.Login, new { @class = "form-control strona2", autofocus = "" })
+                        @Html.ValidationMessageFor(model => model.Imie)
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Haslo)
+                        @Html.PasswordFor(model => model.Haslo, new { @class = "form-control strona2", autofocus = "" })
+                        @Html.ValidationMessageFor(model => model.Haslo)
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.PotwierdzHaslo)
+                        @Html.PasswordFor(model => model.PotwierdzHaslo, new { @class = "form-control strona2", autofocus = "" })
+                        @Html.ValidationMessageFor(model => model.PotwierdzHaslo)
+                    </div>
+
+                    <div class="form-group">
+                        <label>Notyfikacje</label>
+                        @Html.ListBoxFor(model => model.NotyfikacjeIds
+                        , new SelectList(Model.NotyfikacjeUser, "Id", "Nazwa")
+                        , new { @class = "form-control ddlMultiSlectBox", @multiple = "multiple" })
+                    </div>
+
+                    <hr />
+
+                    <div class="form-group">
+                        <label>Uprawnienia</label>
+                        @Html.ListBoxFor(model => model.FunkcjeIds
+                        , new SelectList(Model.FunkcjeUser, "Id", "Nazwa")
+                        , new { @class = "form-control ddlMultiSlectBox", @multiple = "multiple" })
+                    </div>
+                    <hr />
+
+                    <div>
+                        <span class='stop btn btn-default btn-sm ' id="strona2back"> <i class='glyphicon glyphicon-chevron-left'></i> </span>
+                        <span class='stop btn btn-default btn-sm' id="strona2next"> <i class='glyphicon glyphicon-chevron-right'></i> </span>
+                    </div>
+                </div>
+                <!-- ** Strona 2 END** -->
+                <!-- ** Strona 3 START** -->
+                <div id="strona3" class="hidden">
+
+                    <div class="form-group">
+                        @Html.DropDownListFor(model=>model.WIELKOSC_ID
+                            , new SelectList(Model.Slowniki.Where(x => x.SlownikId == 5).First().Wartosci.ToList(), "SlownikWartoscId", "NazwaWartosc")
+                            , "-------   Wybierz Wielkość    -------"
+                           , new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.DropDownListFor(model=>model.TYP_ID
+                            , new SelectList(Model.Slowniki.Where(x => x.SlownikId == 6).First().Wartosci.ToList(), "SlownikWartoscId", "NazwaWartosc")
+                            , "-------   Wybierz TYP    -------"
+                           , new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.DropDownListFor(model => model.OBSZAR_SPRZEDAZY_ID
+                            , new SelectList(Model.Slowniki.Where(x => x.SlownikId == 7).First().Wartosci.ToList(), "SlownikWartoscId", "NazwaWartosc")
+                            , "-------   Wybierz OBSZAR SPZEDAŻY    -------"
+                           , new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.DropDownListFor(model=>model.SIEC_SPRZEDAZY_ID
+                            , new SelectList(Model.Slowniki.Where(x => x.SlownikId == 8).First().Wartosci.ToList(), "SlownikWartoscId", "NazwaWartosc")
+                            , "-------   Wybierz SIEĆ SPRZEDAŻY    -------"
+                           , new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.DropDownListFor(model => model.REGION_SPRZEDAZY_ID
+                            , new SelectList(Model.Slowniki.Where(x => x.SlownikId == 9).First().Wartosci.ToList(), "SlownikWartoscId", "NazwaWartosc")
+                            , "-------   Wybierz REGION SPRZEDAŻY    -------"
+                           , new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.DropDownListFor(model => model.ZESPOL_SPRZEDAZY_ID
+                            , new SelectList(Model.Slowniki.Where(x => x.SlownikId == 10).First().Wartosci.ToList(), "SlownikWartoscId", "NazwaWartosc")
+                            , "-------   Wybierz ZESPÓŁ SPRZEDAŻY    -------"
+                           , new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.DropDownListFor(model => model.GrupaId
+                                              , new SelectList(Model.GrupyUser, "Grupa_Id", "GrupaNazwa")
+                            , "-------   Wybierz Grupę    -------"
+                           , new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Limit)
+                        @Html.TextBoxFor(model => model.Limit, new { @class = "form-control strona3", autofocus = "",placeholder=0 })
+                        @Html.ValidationMessageFor(model => model.Limit)
+                    </div>
+
+                   
+                    <div>
+                        <span class='stop btn btn-default btn-sm ' id="strona3back"> <i class='glyphicon glyphicon-chevron-left'></i> </span>
+                        <span class='stop btn btn-default btn-sm disabled' id="strona3next"> <i class='glyphicon glyphicon-chevron-right'></i> </span>
+                        <button class="btn btn-sm btn-primary pull-right"><i class="fa fa-save dodajAdresatow">&nbsp; Zapisz</i></button>
+                    </div>
+                </div>
+                    <!-- ** Strona 3 END** -->
+            }
+            </div>
+        </div>
+           
+    </div>  

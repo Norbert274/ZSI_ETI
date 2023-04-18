@@ -1,0 +1,75 @@
+﻿@model nclprospekt.Models.GrupaPodgrupa 
+
+@{
+    ViewBag.Title = "Podgrupy";
+}
+
+<h3>Podgrupy</h3>
+<script src="/Scripts/jquery-2.0.3.js"></script>
+<link href="~/Content/WebGrid.css" rel="stylesheet" />
+<p>
+    @Html.ActionLink("Dodaj nową podgrupe", "Create", "Grupa", new { id = @Model.grupa.Grupa_Id }, null)
+</p>
+
+@{
+    int listaRowsCount = 0;
+    IEnumerable<nclprospekt.Models.GrupaReadOnly> listaGrup = new List<nclprospekt.Models.GrupaReadOnly>();
+    if (Model.podgrupaListPaged != null)
+    { 
+        listaGrup = Model.podgrupaListPaged.GrupaLista;
+        listaRowsCount = Model.podgrupaListPaged.rowsCount;
+    }
+
+    WebGrid grid = new System.Web.Helpers.WebGrid(
+        null,
+        ajaxUpdateContainerId: "myGrid",
+        defaultSort: "Nazwisko;Imie;FirmaNazwa",
+        canPage: true,
+        pageFieldName: "page",
+        canSort: true,
+        sortFieldName: "sortBy",
+        sortDirectionFieldName: "sortOrder",
+        rowsPerPage: 15
+    );
+    grid.Bind(listaGrup, autoSortAndPage: false, rowCount: listaRowsCount);
+        //grid.SortDirection = SortDirection.Ascending;
+        
+}
+
+<div id="gridContent" style=" padding-top:3px; padding-bottom:20px; padding-left:20px; padding-right:20px ">
+    @grid.GetHtml(
+      tableStyle: "webgrid-table", /*your class name for this property*/
+      headerStyle: "webgrid-header",/*your class name for this property*/
+      footerStyle: "webgrid-footer", /*your class name for this property*/
+      rowStyle: "webgrid-row-style", /*your class name for this property*/
+      alternatingRowStyle: "webgrid-alternating-row",/*your class name...*/
+      selectedRowStyle: "webgrid-selected-row",/*your class name for this property*/
+
+      firstText: "<<",
+      lastText: ">>",
+      mode: WebGridPagerModes.All,
+      fillEmptyRows: true,
+
+      columns: grid.Columns(
+        grid.Column("lp", "l.p.", style: "span11", canSort: false),
+        grid.Column("Grupa_Id", "Id", style: "span6", canSort: false),
+        grid.Column("GrupaNr", "Numer grupy", style: "span2", canSort: true),
+        grid.Column("GrupaNazwa", "Nazwa grupy", style: "span2", canSort: true),
+        grid.Column("GrupaOwnerNazwa", "Grupa nadrzędna", style: "span2", canSort: true),
+        grid.Column("Prefix", "Prefix", style: "span2", canSort: false),
+        grid.Column("Poziom", "Poziom", style: "span2", canSort: false),
+   grid.Column("Operations", "Operacje", format: (item) =>
+ new HtmlString(
+       Html.ActionLink("Szczegóły", "Details", "Grupa", new
+       {
+           id = item.Grupa_Id,
+           title = "Szczegóły",
+           @class = "icon-link",
+           style = "background-image: url('../../Content/icons/detail.png')"
+       }, null).ToString()
+
+                   ), style: "webgrid-operations", canSort: false
+    )
+    ), numericLinksCount: 5
+)
+</div>

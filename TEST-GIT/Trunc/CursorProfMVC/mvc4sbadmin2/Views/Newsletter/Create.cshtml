@@ -1,0 +1,83 @@
+﻿@model nclprospekt.Models.Newsletter
+
+@{
+    ViewBag.Title = "Create";
+}
+<div class="panel panel-primary panel-block">
+    <div class="panel-heading">
+        <div class="row">
+            <a href="javascript:history.back()"> <span class="btn btn-circle podMenu btn-primary"><i class="fa fa-arrow-left"></i></span></a>
+            <strong>Nowa Wiadomość</strong>
+        </div>
+    </div>
+        <div class="container-fluid clearfix">
+            <div class="row">
+                 
+                @using (Html.BeginForm("Create", "NewsLetter", FormMethod.Post))
+                {
+                <div class="col-sm-12 ">
+                        <div class="form-group ">
+                            <div class="col-xs-12 form-group ">
+                       
+                                
+                                <div class="input-group clearfix">
+                        
+                                    <span class="input-group-btn">
+                                        <button class="btnCLEAR btn btn-success" type="button"
+                                                onclick="location.href='@Url.Action("Adresaci", "Newsletter")'">
+                                            Dodaj
+                                        </button>
+                                    </span>
+                                    
+                                    @if (@Model != null)
+                                    {
+                                        string adresaci= String.Join(",", @Model.Odbiorcy);
+                                        
+                                        @Html.TextBox("odbiorcy", @adresaci, new { @class = "form-control", @type = "text"})
+                                        
+                                    }
+                                    else
+	                                {
+                                        <input type="text" class="form-control" placeholder="Adresaci">
+	                                }
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                @(Html.LabelFor(model => model.Tytul, new { @class = "col-xs-12 col-sm-6 col-md-12 control-label" }))
+                                <div class="col-xs-12  control-label">
+                                     @Html.TextBox("tytul",null ,new { @class = "form-control", @type = "text", @placeholder = "Tytuł" })
+                                     @Html.ValidationMessageFor(model => model.Tytul)
+                                </div>
+                            </div>
+                        
+                            <div class="form-group">
+                                
+                                @(Html.LabelFor(model => model.Wiadomosc, new { @class = "col-xs-12 col-sm-6 col-md-12 control-label" }))
+                                <div class="col-xs-12 control-label">
+                                    @Html.TextArea("wiadomosc", new { @class = "form-control", @rows = "15", @placeholder="Wiadomość" })
+                                    @Html.ValidationMessageFor(model => model.Wiadomosc)
+                                   
+                                </div>
+                            </div>
+                           
+                            <div class="form-group">
+                                
+                                <div class="col-xs-12 control-label">
+                                   
+                                    <button class="btn btn-success btn-mobile pull-right" type="submit" id="btnDodaj">
+                                        <i class="fa fa-send">
+                                            Wyślij
+                                        </i>
+                                    </button>
+
+                                </div>
+                             
+                            </div>
+                        </div>
+                     
+                </div>
+                }
+            </div>
+        </div>
+    </div>

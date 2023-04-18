@@ -1,0 +1,38 @@
+﻿<ul class="nav navbar-nav" id="side-menu">
+    @if (Request.IsAuthenticated)
+    {
+
+        <li>
+            <a href="@Url.Action("Index", "Home")"><span class="btn btn-default btn-circle"><i class="fa fa-home fa-fw "></i></span> Start</a>
+        </li>
+        if (User.IsInRole("StanyToolStripMenuItem"))
+        {
+            <li>
+                <a href="@Url.Action("Index","Stany")"><span class="btn btn-success btn-circle"><i class="fa fa-bar-chart-o fa-fw"></i></span> Stany magazynowe</a>
+            </li>
+        }
+        if (User.IsInRole("KoszykToolStripMenuItem"))
+        {
+            <li>
+                <a href="@Url.Action("Edit","Koszyk")"><span class="btn btn-warning btn-circle"><i class="fa fa-shopping-cart fa-fw"></i></span> Koszyk</a>
+            </li>
+        }
+        if (User.IsInRole("ZamowieniaToolStripMenuItem"))
+        {
+            <li>
+                <a href="@Url.Action("Index","Zamowienie")"><span class="btn btn-danger btn-circle"><i class="fa fa-table fa-fw"></i></span> Zamówienia</a>
+            </li>
+        }
+
+        <li>
+            <a href="@Url.Action("Index","Ustawienia")"><span class="btn btn-primary btn-circle"><i class="fa fa-cog fa-fw"></i></span> Adresy</a>
+        </li>
+        if (User.IsInRole("AwizacjeToolStripMenuItem"))
+        {
+            <li>
+                <a href="@Url.Action("Index","Awizo")"><span class="btn btn-info btn-circle"><i class="fa fa-cog fa-fw"></i></span> Awiza</a>
+            </li>
+        }
+        
+    }
+</ul>

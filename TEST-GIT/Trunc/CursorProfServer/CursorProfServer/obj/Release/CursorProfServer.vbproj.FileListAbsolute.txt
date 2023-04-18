@@ -1,0 +1,11 @@
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.pdb
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Release\CursorProfServer.vbproj.AssemblyReference.cache
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Release\CursorProfServer.Resources.resources
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Release\CursorProfServer.vbproj.GenerateResource.cache
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Release\CursorProfServer.vbproj.CoreCompileInputs.cache
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Release\CursorProfServer.vbproj.CopyComplete
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Release\CursorProfServer.dll
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Release\CursorProfServer.xml
+C:\Users\n.agacinski\Desktop\ZSI - VS2022\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Release\CursorProfServer.pdb

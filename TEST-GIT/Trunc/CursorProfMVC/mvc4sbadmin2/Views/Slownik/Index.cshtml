@@ -1,0 +1,95 @@
+﻿@model IEnumerable<nclprospekt.Models.Slownik>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/custom.css" rel="stylesheet" />
+@section scripts{
+<script src="@Url.Content("~/Scripts/custom-slownik.js")" type="text/javascript"></script>
+}
+
+
+<div class="panel panel-primary panel-block">
+
+    <div class="panel-heading">
+
+        <div class="row ">
+            <div class="col-xs-2">
+                <strong>Słowniki</strong>
+            </div>
+            
+        </div>
+    </div>
+    <div class="panel-body">
+
+        
+
+        @foreach (var slownik in Model)
+        {
+            <div class="row rectangle">
+
+                    @slownik.SlownikId .
+
+                    @slownik.Nazwa
+
+                   
+
+                @if (slownik.Edytowalny==1)
+                {
+                    <a href="@Url.Action("Manage", "Slownik", new { id = @slownik.SlownikId })"><span class="btn btn-sm pull-right zarzadzaj">Zarządzaj</span></a>
+                }
+                else
+                {
+                    <span class="btn btn-sm pull-right Nzarzadzaj">Zarządzaj</span>
+                }
+                
+ 
+            </div>
+
+
+            <div class="listaSlownik">
+
+               <table class="table ">
+                   <thead>
+                       <tr>
+                           <th>
+                               LP.
+                           </th>
+                           <th>
+                               Wartość
+                           </th>
+                       </tr>
+                   </thead>
+                   <tbody>
+                       @for (int i = 0; i < slownik.Wartosci.Count; i++)
+                       {
+                        <tr class="warning">
+                            <td>
+                                @(i + 1)
+                            </td>
+                            <td>
+                                @slownik.Wartosci[i].NazwaWartosc
+                            </td>
+                        </tr>
+                       } 
+                   </tbody>
+               </table>
+
+
+
+                @*<ol>
+                    @foreach (var wartosc in slownik.Wartosci)
+                    {
+                        <li>@wartosc.NazwaWartosc</li>
+                        <hr />
+                    }
+                </ol>*@
+
+            </div>
+
+
+        }
+
+    </div>
+ </div>

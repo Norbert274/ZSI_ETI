@@ -1,0 +1,130 @@
+﻿@model nclprospekt.Models.AwizoWO
+
+<script type="text/javascript">
+    var settingsProdList = {
+        "dom": '<"top"lf>rt<"row-fluid"<"span2 offset1"i><"span6 offset1"p>>',
+        "language": {
+            "sProcessing": "   ",
+            "sLengthMenu": "Pozycji na stronę _MENU_ ",
+            "sZeroRecords": "Nie znaleziono pasujących pozycji",
+            "sInfoThousands": " ",
+            "sInfo": "Pozycje od _START_ do _END_ z _TOTAL_ łącznie",
+            "sInfoEmpty": "Pozycji 0 z 0 dostępnych",
+            "sInfoFiltered": "(filtrowanie spośród _MAX_ dostępnych pozycji)",
+            "sInfoPostFix": "",
+            "sSearch": "Filtruj wynik:",
+            "sUrl": "",
+            "oPaginate": {
+                "sFirst": '<i class="fa fa-angle-double-left fa-2x"></i>',
+                "sPrevious": '<i class="fa fa-angle-left fa-2x"></i>',
+                "sNext": '<i class="fa fa-angle-right fa-2x"></i>',
+                "sLast": '<i class="fa fa-angle-double-right fa-2x"></i>'
+            },
+            "sEmptyTable": "Brak danych",
+            "sLoadingRecords": "   ",
+            "oAria": {
+                "sSortAscending": ": aktywuj, by posortować kolumnę rosnąco",
+                "sSortDescending": ": aktywuj, by posortować kolumnę malejąco"
+            }
+        },
+        "aLengthMenu": [[10, 25, 50, 75], [10, 25, 50, 75]],
+        "sPaginationType": "input",
+        "destroy": true,
+        "scrollCollapse": true,
+        "bAutoWidth": false,
+        "columns": [
+                 {
+                     "class": "details-control all",
+                     "orderable": false,
+                     "data": null,
+                     "defaultContent": ""
+                 },//<th>#</th>
+
+            { "class": "all", "title": "SKU" },
+             { "class": "all", "title": "Nazwa" }
+            // { "title": "Do awiza" },
+              //{ "title": "Powrót" }
+        ],
+        "order": [[1, 'asc']],
+        "fnInitComplete": function () {
+
+            $('#awizoProduktyListaDataTable').show();
+            var t = $('#awizoProduktyListaDataTable').DataTable();
+            t.responsive.recalc();
+        }
+
+
+
+    };
+
+
+    $(document).ready(
+    function () {
+        var t = $('#awizoProduktyListaDataTable').DataTable(settingsProdList);
+        t.draw();
+    });
+
+
+</script>
+
+
+<div class="panel panel-primary panel-block" id="awizoProduktyLista">
+
+
+    <div class="panel-heading">
+        Lista dostępnych produktów
+    </div>
+
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover dt-responsive tableTextCenter" id="awizoProduktyListaDataTable" cellspacing="0" style="width:100%; ">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>SKU</th>
+                                <th>Nazwa</th>
+                                @*<th>Dodaj do koszyka</th>
+                                <th>Wróć na górę</th>*@
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.awizoSKULista.Count(); i++)
+                            {
+                                var indexPozycji = "awizoSKULista_" + @Model.awizoSKULista[i].SKU;
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <input id="wiersz_@i" type="hidden" name="awizoSKULista.Index" value="@indexPozycji" /> @*Index - inaczej Submit nie zadziala po przerwaniu ciagu elementow*@
+                                        <input id="SKU_@i" type="hidden" value="@Model.awizoSKULista[i].SKU" name="awizoSKULista[@indexPozycji].SKU" />
+                                        <input id="SKU_ID_@i" type="hidden" value="@Model.awizoSKULista[i].SKU_ID" name="awizoSKULista[@indexPozycji].SKU_ID" />
+                                        <input id="NAZWA_@i" type="hidden" value="@Model.awizoSKULista[i].NAZWA" name="awizoSKULista[@indexPozycji].NAZWA" />
+                                        @Model.awizoSKULista[i].SKU
+                                        <br />
+                                        <a><i alt="Dodaj" class="fa fa-plus fa-2x add-me" data-sku="@Model.awizoSKULista[i].SKU" data-skuid="@Model.awizoSKULista[i].SKU_ID" data-nazwa="@Model.awizoSKULista[i].NAZWA"></i></a>
+                                    </td>
+                                    <td>@Model.awizoSKULista[i].NAZWA</td>
+                                    @*<td><a><i alt="Do góry" class="fa fa-arrow-up fa-2x scroll-top"></i></a></td>*@
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col-xs-12 col-sm-6">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-lg btn-info btn-mobile scroll-top" >
+                            <i class="fa fa-level-up">&nbsp;&nbsp;</i> 
+                            Na górę
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>

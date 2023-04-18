@@ -1,0 +1,259 @@
+﻿@using System.Web.Optimization;
+
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="">
+    <meta name="author" content="" />
+
+    <link rel="shortcut icon" type="image/ico" href="~/Content/images/favicon.ico" />
+
+    <title>POSManager (ZSI) - @ViewBag.Title</title>
+
+    <style type="text/css">
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+    </style>
+
+
+    @Styles.Render(@Url.Content("~/Content/css?=v1"))
+    <link href="@Url.Content("~/Content/custom.css?=v1")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/plugins/jquery.dataTables.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/plugins/responsive.bootstrap.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/plugins/responsive.dataTables.css")" rel="stylesheet" type="text/css" />
+    <!--link href="@Url.Content("~/Content/plugins/dataTables.tableTools.css")" rel="stylesheet" type="text/css" /-->
+    <link href="@Url.Content("~/Content/plugins/fixedHeader.dataTables.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/plugins/metisMenu.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/plugins/morris.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/font-awesome-4.1.0/css/font-awesome.css")" rel="Stylesheet" />
+    <link href="@Url.Content("~/Content/plugins/dataTables.fontAwesome.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/timeline.css")" rel="stylesheet" type="text/css" />
+
+    
+
+    @RenderSection("Styles", required: false)
+
+</head>
+
+<body style="min-width:100%">
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="~/Home">
+                    <img style="max-width:140px; margin-top: -13px; " src="~/Content/images/logo.png" alt="POSManager" />
+
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+
+                @if (User.Identity.Name != "")
+                {
+                    <span class="text-info hidden-xs visible-sm visible-md visible-lg navbar-brand">
+                        U&#380ytkownik: @User.Identity.Name
+                    </span>
+                }
+
+            </div>
+
+
+            <!-- /.navbar-header -->
+
+            <div class="container" style="width:100%;text-align:right;">
+                <ul class="nav navbar-top-links navbar-right">
+
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu">
+
+                            @if (User.Identity.Name != null && User.Identity.Name != "")
+                            {
+                                <li><a href="@Url.Action("Contact", "Pomoc")"><i class="fa fa-mobile-phone fa-fw"></i>Kontakt</a></li>
+                                <li><a href="@Url.Action("FilesDownload", "Pomoc")"><i class="fa fa-file fa-fw"></i>Pobieranie plików</a></li>
+                                <li class="divider"></li>
+                                <li><a href="@Url.Action("Help", "Pomoc")"><i class="fa fa-support fa-fw"></i>Pomoc</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="https://oexebusiness.com/"><i class="fa fa-mobile-phone fa-fw"></i>Kontakt</a></li>
+                            }
+
+
+                        </ul>
+                    </li>
+
+                    <!-- /.dropdown -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            @if (User.Identity.Name != null && User.Identity.Name != "")
+                            {
+                                <li><a href="@Url.Action("Manage", "Account")"><i class="fa fa-gear fa-fw"></i>Zmień hasło</a></li>
+                                <li><a href="@Url.Action("Edit", "Uzytkownik")"><i class="fa fa-user fa-fw"></i>Edycja konta</a></li>
+                                <li class="divider"></li>
+                                <li>
+                                    @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                                    {
+                                        @Html.AntiForgeryToken()
+                                        <a href="javascript:document.getElementById('logoutForm').submit()"><i class="fa fa-sign-out fa-fw"></i>Wyloguj</a>
+                                    }
+                                </li>
+                            }
+                            else
+                            {
+                                <li><a href="@Url.Action("Login", "Account")"><i class="fa fa-gear fa-fw"></i>Zaloguj</a></li>
+                            }
+                        </ul>
+                        <!-- /.dropdown-user -->
+                    </li>
+                    <!-- /.dropdown -->
+                </ul>
+            </div>
+            <!-- /.navbar-top-links -->
+
+            <div class="sidebar-nav navbar-collapse" id="side-menu-2-collapse">
+                @if (User.Identity.IsAuthenticated)
+                {// full menu
+                    @Html.Partial("_UserMenuPartial")
+                }
+                else
+                {// home, about, contact nav bar
+                    @Html.Partial("_GuestMenuPartial")
+                }
+            </div>
+        </nav>
+        <!-- /.navbar-static-top -->
+        <!-- Page Content -->
+
+
+
+
+        <div id="page-wrapper-dt">
+            <!-- Miejsce na komunikaty (pojawia sie gdy bedzie jakis TempData) -->
+            @Html.Action(actionName: "TempMessage", controllerName: "Message")
+            @RenderBody()
+        </div>
+        <!-- /#page-wrapper -->
+        <footer class="page-footer font-small blue">
+
+            <!-- Copyright -->
+
+            <div class="footer-copyright text-center py-3">
+
+                &copy; @DateTime.Now.Year - OEX IT Services
+                | POSManager OEX E-Business    | @ViewContext.Controller.GetType().Assembly.GetName().Version
+                @*|  <span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span>  @System.Configuration.ConfigurationManager.AppSettings["applicationsupport"]*@
+                @*| @Html.ActionLink("Polityka Prywatności", "PrivacyPolicy", "Home", routeValues: null, htmlAttributes: new { @class = "" })
+                | @Html.ActionLink("Administrator Danych", "Dataadministration", "Articles", routeValues: null, htmlAttributes: new { @class = "" })*@
+                @*<br />
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAA7gAAAO4BBtayNAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGHSURBVCiRfZC9S5VxGIavuyMiaRSiVhwQ0grSoramQlr8A2wtaizXaGqJoAiiJROqIdKGOEt/QdAajn2BLTUUaGhDDQ3K1fIceDlo7/Lez/3xez5Cz6deAWaqfA+cKvwmyXKvvxlsq4uF+9UJtb/qBXXsf+Fb6oldtGn1RpPb0+OZSvJ5p3CSj8B0k+trvDwCHFWfAe+AL8AfYAg4BpwFptXhJJsAUY8A88AwsA3cB8aAdqPJD2AduAm0gE1gIWoHmE/yU50CLld4CxBITbgOLCX5pI4Cj6PeBvYBS8CHJFs77Vyr9QEngUvA7xQ5DnSAVeAg8L26DQB/a4o2sAZMAHNJ1rrX7qvD3AG+Ak+AX8Cj+j8FvgF3gf3A3u4oZ9QX6rj6Wh1Rr6uzpc9WPVr6ePlPo66ohxrGq7vse02dKXxYXUGdVF+p59SoL9WhnuABdbnw+fJPdsWW+kCdU4+rS+pAaYNqp/iL5Wt1D0WSbXUQeJtkQ30IPFet5veSrKobwIUk2wD/AELJGE7rd4cJAAAAAElFTkSuQmCC">
+                @System.Configuration.ConfigurationManager.AppSettings["rodotext"]*@
+
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+    </div>
+
+
+
+    <!-- /#wrapper -->
+    @Scripts.Render(@Url.Content("~/bundles/modernizr"))
+    @Scripts.Render(@Url.Content("~/bundles/jquery"))
+    <!--script src="@System.Web.Optimization.BundleTable.Bundles.ResolveBundleUrl("~/bundles/jqueryval")" type="text/javascript"></script-->
+    @Scripts.Render(@Url.Content("~/bundles/bootstrap"))
+    <!--Scripts.Render(Url.Content("~/bundles/jqueryval"))-->
+
+    <script src="@Url.Content("~/Scripts/bootstrap-datepicker.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap-datepicker-pl.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript" ></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript" ></script>
+    <script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")" type="text/javascript" ></script>
+
+    <!-- Menu Plugin JavaScript -->
+
+    <script src="@Url.Content("~/Scripts/custom.js?v=1")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/plugins/DataTables/jquery.dataTables.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/plugins/DataTables/dataTables.bootstrap.js")" type="text/javascript" ></script>
+    <script src="@Url.Content("~/Scripts/bootstrapPager.min.js")" type="text/javascript" ></script>
+    <script src="@Url.Content("~/Scripts/plugins/DataTables/dataTables.responsive.js")" type="text/javascript" ></script>
+    <script src="@Url.Content("~/Scripts/plugins/DataTables/input.js")" type="text/javascript" defer></script>
+    <script src="@Url.Content("~/Scripts/plugins/DataTables/dataTables.fixedHeader.js")" type="text/javascript" ></script>
+    <script src="@Url.Content("~/Scripts/plugins/DataTables/dataTables.tableTools.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/plugins/metisMenu/metisMenu.js")" type="text/javascript" ></script>
+    <!--script src="../../js/plugins/metisMenu/metisMenu.js" type="text/javascript"></script-->
+    <script src="@Url.Content("~/Scripts/plugins/morris/morris.js")" type="text/javascript" ></script>
+    
+
+
+
+    <script src="@Url.Content("~/Scripts/plugins/noty/jquery.noty.packaged.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/sb-admin-2.js")" type="text/javascript" ></script>
+    
+    @RenderSection("scripts", required: false)
+    @RenderSection("datascripts", required: false)
+
+
+</body>
+
+
+</html>
+@*<style>
+    footer.page-footer {
+        bottom: 0;
+        color: #fff;
+    }
+
+    a {
+        color: rgb(0, 63, 164)rgba(255,255,255,.6);
+    }
+
+    .font-small {
+        font-size: .9rem;
+    }
+
+    .blue {
+        background-color: #2196f3 !important;
+    }
+
+    footer.page-footer .footer-copyright {
+        overflow: hidden;
+        background-color: #3C7AB5;
+        color: rgba(255,255,255,.6);
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    .pb-3, .py-3 {
+        padding-bottom: 1rem !important;
+    }
+
+    .pt-3, .py-3 {
+        padding-top: 1rem !important;
+    }
+</style>*@

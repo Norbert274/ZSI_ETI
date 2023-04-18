@@ -1,0 +1,91 @@
+﻿@model nclprospekt.Models.AdresDetaleWO
+
+@{
+    ViewBag.Title = "Edycja adresu";
+}
+
+<div id="AdresDiv" class="col-md-4 col-md-offset-4">
+    <input id="status" value="@ViewBag.Status" data-message="@ViewBag.Message" style="display:none" />
+
+
+    <div class="panel panel-primary panel-block">
+        <div class="panel-heading">
+            Edycja adresu
+
+        </div>
+
+        <div class="panel-body">
+
+@using (Ajax.BeginForm("Edit", "Ustawienia",
+            new AjaxOptions
+            {
+                HttpMethod = "POST",
+                InsertionMode = InsertionMode.Replace,
+                OnBegin= "onAdresBegin",
+                OnFailure = "onAdresFailure",
+                //OnSuccess = "onAdresMobileSuccess",
+                OnComplete = "onAdresMobileCompleted"//,
+                                                     //  UpdateTargetId = "adresDetale"
+            }
+                        ))
+{
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                @Html.HiddenFor(model => model.blokada_id)
+                @Html.HiddenFor(model => model.user_id)
+                @Html.HiddenFor(model => model.adres.Adres_Id)
+                @Html.HiddenFor(model => model.adres.AdresTyp_Id)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.adres.Nazwa)
+                    @Html.TextBoxFor(model => model.adres.Nazwa, new { @class = "form-control", autofocus = "" })
+                    @Html.ValidationMessageFor(model => model.adres.Nazwa)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.adres.Ulica)
+                    @Html.TextBoxFor(model => model.adres.Ulica, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.adres.Ulica)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.adres.Kod)
+                    <div class="input-group">
+                        <span class="input-group-addon">##-###</span>
+                        @Html.TextBoxFor(model => model.adres.Kod, new { @class = "form-control" })
+                    </div>
+
+                    @Html.ValidationMessageFor(model => model.adres.Kod)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.adres.Miasto)
+                    @Html.TextBoxFor(model => model.adres.Miasto, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.adres.Miasto)
+                </div>
+    <div class="bezMarginesu">
+    <div class="col-xs-12 col-sm-6">
+    <div class="form-group">
+                <button type="submit" class="btn btn-lg btn-success btn-mobile" id="btnAdresSubmit" name="btnAdresSubmit"><i class="fa fa-save">&nbsp;&nbsp;</i> Zapisz</button>
+    </div>
+    </div>
+    </div>
+            }
+
+        <div class="bezMarginesu">
+            <div class="col-xs-12 col-sm-6">
+
+            <div class="form-group">
+               <button type="button" class="btn btn-lg btn-danger btn-mobile detail-link-return">
+                        <i class="fa fa-backward">&nbsp;&nbsp;</i> 
+                    <span aria-hidden="true"></span>
+                    Wróć
+                </button>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</div>
+

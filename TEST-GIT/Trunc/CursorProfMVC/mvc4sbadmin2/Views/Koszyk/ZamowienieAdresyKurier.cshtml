@@ -1,0 +1,11 @@
+﻿@model nclprospekt.Models.ZamowienieWczytaneWO
+
+<div class="radio">
+    <label>
+        @Html.RadioButtonFor(model => model.zamowienie.typ_zamowienia, 6, @Model.zamowienie.typ_zamowienia == 6 ? (object)new { id = "6oddzialKuriera", Checked = "check", type = "radio", @class = "radio sprawdzane" } : new { id = "6oddzialKuriera", type = "radio", @class = "radio sprawdzane" })
+        Odbiór własny w oddziale kuriera
+    </label>
+    <div id="sel6oddzialKuriera" class="divSelect" style="@(Model.zamowienie.typ_zamowienia == 6 ? "" : "display:none")">
+        @Html.DropDownListFor(model => model.zamowienie.oddzial_docelowy_id, new SelectList(Model.zamowienieKurierAdresy, "oddzial_id", "nazwa"), new { @class = "form-control sprawdzane af6oddzialKuriera" })
+    </div>
+</div>

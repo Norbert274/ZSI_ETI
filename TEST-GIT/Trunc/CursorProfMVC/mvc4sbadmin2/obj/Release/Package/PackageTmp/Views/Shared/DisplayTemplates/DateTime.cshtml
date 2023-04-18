@@ -1,0 +1,10 @@
+﻿@model DateTime? 
+
+@if(Model.HasValue)
+{
+    @String.Format("{0:d}", Model.Value.Date) 
+}
+
+
+
+

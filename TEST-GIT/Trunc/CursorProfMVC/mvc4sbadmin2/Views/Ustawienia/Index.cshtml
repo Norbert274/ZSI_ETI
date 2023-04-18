@@ -1,0 +1,193 @@
+﻿@model nclprospekt.Models.AdresyWO
+
+@section scripts {
+
+    <script src="@Url.Content("~/Scripts/custom-adres.js")" type="text/javascript"></script>
+    <script type="text/javascript">
+        var settings = {
+            "dom": '<"top"lf>rt<"row-fluid"<"span2 offset1"i><"span6 offset1"p>>',
+            "language": {
+                "sProcessing": "  ",
+                "sLengthMenu": "Pozycji na stronę _MENU_ ",
+                "sZeroRecords": "Nie znaleziono pasujących pozycji",
+                "sInfoThousands": " ",
+                "sInfo": "Pozycje od _START_ do _END_ z _TOTAL_ łącznie",
+                "sInfoEmpty": "Pozycji 0 z 0 dostępnych",
+                "sInfoFiltered": "(filtrowanie spośród _MAX_ dostępnych pozycji)",
+                "sInfoPostFix": "",
+                "sSearch": "Wyszukaj:",
+                "sUrl": "",
+
+                "oPaginate": {
+                    "sFirst": '<i class="fa fa-angle-double-left fa-2x"></i>',
+                    "sPrevious": '<i class="fa fa-angle-left fa-2x"></i>',
+                    "sNext": '<i class="fa fa-angle-right fa-2x"></i>',
+                    "sLast": '<i class="fa fa-angle-double-right fa-2x"></i>'
+                },
+                "sEmptyTable": "Wpisz szukaną nazwę w filtrze i naciśnij enter",
+                "sLoadingRecords": "   ",
+                "oAria": {
+                    "sSortAscending": ": aktywuj, by posortować kolumnę rosnąco",
+                    "sSortDescending": ": aktywuj, by posortować kolumnę malejąco"
+                }
+            },
+            "aLengthMenu": [[10, 25, 50, 75], [10, 25, 50, 75]],
+            "sPaginationType": "input",
+            "destroy": true,
+            "scrollCollapse": true,
+            "bAutoWidth": true,
+            "columns": [{
+                "class": "details-control",
+                "sWidth": "15px",
+                "orderable": false,
+                "data": null,
+                "defaultContent": ""
+            },
+                {
+                    "class": "DeleteMe",
+                    "orderable": false,
+                    "sWidth": "15px",
+                    "bUseRendered": true,
+                    "mRender": function (data, type, row) {
+                        var inkonki = '<a class="text-danger"><i alt="Usuń" class="fa fa-trash-o fa-2x delete-me-link-modal" data-adresid="id=' + row["Adres_Id"] + '"></i></a>';
+
+                        return inkonki;
+                    }
+                },
+                                {
+                                    "class": "EditMe",
+                                    "orderable": false,
+                                    "sWidth": "15px",
+                                    "bUseRendered": true,
+                                    "mRender": function (data, type, row) {
+                                        var inkonki = '<a><i alt="Edytuj" class="fa fa-edit fa-2x edit-me-link-modal" data-adresid="id=' + row["Adres_Id"] + '"></i></a>';
+
+                                        return inkonki;
+                                    }
+                                },
+
+                 { "data": "Nazwa", "title": "Nazwa" },
+                          { "data": "Ulica", "title": "Ulica" },
+                          { "data": "Kod", "title": "Kod" },
+                          { "data": "Miasto", "title": "Miasto" }],
+            "bProcessing": true,
+            "bServerSide": true,
+            "ajax": {
+            "url": "@Url.Action("Index", "Ustawienia")",
+                "dataType": 'json',
+                "type": "POST",
+                data: function (data) {
+                    var csrfToken = $("input[name='__RequestVerificationToken']").val();
+                    data.__RequestVerificationToken = csrfToken;
+                },
+                error: function (err) {
+                    ShowJsonAjaxMessage(err);
+            },
+            complete: function (xhr, status) {
+                   LoadingStop()
+            IsJsonRedirect(xhr);
+                }
+            }
+
+        };
+
+
+
+
+        $(document).ready(
+        function () {
+            var t = $('#adresyDataTable').DataTable(settings);
+            //t.draw();
+
+            //prevents form submissions if press ENTER in textbox
+            $(window).keydown(function (event) {
+                if (event.keyCode == 13) {
+                    event.preventDefault();
+                    return false;
+                }
+            });
+
+            var searchbox = $('.dataTables_filter input');
+            searchbox.unbind();
+            searchbox.bind('keyup', function (e) {
+                if (e.keyCode == 13) {
+                    t.search(this.value).draw();
+                }
+            });
+
+            var uitool = '';
+            searchbox.on("mousedown", function () {
+                uitool = 'mouse';
+            });
+            searchbox.on("keydown", function () {
+                uitool = 'keyboard';
+            });
+
+            //Reset the search if the "x" is pressed in the filter box
+            searchbox.bind('input', function () {
+                if ((this.value == "") && (t.search() != '') && (uitool == 'mouse')) {
+                    t.search('').draw();
+                    return;
+                }
+            });
+
+
+        });
+
+
+
+    </script>
+}
+
+@{
+    ViewBag.Title = "Adresy zdefiniowane";
+}
+
+<br />
+@Html.AntiForgeryToken()
+@*Nowy sposób zapisu*@
+
+<div class="panel panel-primary panel-block">
+
+
+    <div class="panel-heading">
+        Adresy zdefiniowane
+    </div>
+
+    <div class="panel-body">
+            @*Przyciski*@
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+            <div class="form-group">
+                        <button type="button" class="btn btn-info btn-mobile" id="addUstawieniaAdres"><i class="fa fa-plus">&nbsp;&nbsp;</i> Dodaj adres</button>
+            </div>
+                </div>
+            </div>
+            @*Dane*@
+            <div class="row">
+                <div class="col-xs-12">
+            <div class="table-responsive">
+                        <table class="table table-striped table-hover dt-responsive tableTextCenter" id="adresyDataTable" cellspacing="0" style="width:100%"></table>
+            </div>
+        </div>
+            </div>
+     
+
+    </div>
+</div>
+
+@*Modale*@
+<div id="AdresModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-body" id="modalBodyAdresDiv">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-lg btn-danger" data-dismiss="modal">
+                    <i class="fa fa-times">&nbsp;&nbsp;</i> 
+                Zamknij</button>
+            </div>
+        </div>
+    </div>
+</div>

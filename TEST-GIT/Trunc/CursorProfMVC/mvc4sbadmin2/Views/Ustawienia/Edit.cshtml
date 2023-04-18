@@ -1,0 +1,85 @@
+﻿@model nclprospekt.Models.AdresDetaleWO
+
+@{
+    ViewBag.Title = "Edycja adresu";
+}
+
+
+
+ @using (Ajax.BeginForm("Edit", "Ustawienia",
+            new AjaxOptions
+            {
+                HttpMethod = "POST",
+                InsertionMode = InsertionMode.Replace,
+                //OnSuccess = "updateAdresSuccess()",
+                OnFailure = "onAdresFailure",
+                OnBegin = "onAdresPrepare",
+                OnComplete = "onAdresCompleted"//,
+             //   UpdateTargetId = "modalBodyAdresDiv"
+
+            }))
+ {
+
+     //Czyszczenie danych po zamknieciu modala (inaczej problemy po edycji)
+
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <input id="status" value="@ViewBag.Status" data-message="@ViewBag.Message" style="display:none" />
+        @Html.HiddenFor(model => model.blokada_id)
+        @Html.HiddenFor(model => model.user_id)
+        @Html.HiddenFor(model => model.adres.Adres_Id)
+        @Html.HiddenFor(model => model.adres.AdresTyp_Id)
+
+        <div class="panel panel-primary panel-block">
+            <div class="panel-heading">
+                Edycja adresu
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+
+            <div class="panel-body">
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.adres.Nazwa)
+                    @Html.TextBoxFor(model => model.adres.Nazwa, new { @class = "form-control", autofocus = "" })
+                    @Html.ValidationMessageFor(model => model.adres.Nazwa)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.adres.Ulica)
+                    @Html.TextBoxFor(model => model.adres.Ulica, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.adres.Ulica)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.adres.Kod)
+                    <div class="input-group">
+                        <span class="input-group-addon">##-###</span>
+                    @Html.TextBoxFor(model => model.adres.Kod, new { @class = "form-control" })
+                    </div>
+
+                    @Html.ValidationMessageFor(model => model.adres.Kod)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.adres.Miasto)
+                    @Html.TextBoxFor(model => model.adres.Miasto, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.adres.Miasto)
+                </div>
+
+                <button type="submit" class="left btn btn-lg btn-success" id="btnUstawieniaAdresSubmit" name="btnUstawieniaAdresSubmit"><i class="fa fa-save">&nbsp;&nbsp;</i> Zapisz</button>
+                
+            </div>
+           
+        </div>
+
+        
+
+
+
+    </fieldset>
+
+
+ }
+

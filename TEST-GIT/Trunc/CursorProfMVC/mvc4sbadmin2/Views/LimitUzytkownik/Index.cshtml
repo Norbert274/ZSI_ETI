@@ -1,0 +1,132 @@
+﻿@model IList<nclprospekt.Models.LimtUzytkownik>
+
+@{
+    ViewBag.Title = "Limity";
+}
+
+@section scripts{
+        
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script src="@Url.Content("~/Scripts/custom-limitUzytkownika.js")" type="text/javascript"></script>
+}
+<input type="hidden" value="@ViewBag.Message" id="message" />
+<input type="hidden" value="@ViewBag.Mode" id="mode" />
+
+@using (Html.BeginForm("Index", "LimitUzytkownik", FormMethod.Post))
+{
+<!--PANEL HEADER START-->
+<div class="panel panel-primary panel-block">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-4">
+                <strong>Limity Użytkowników</strong>
+            </div>
+        </div>
+    </div>
+
+    <!--PANEL HEADER END-->
+
+    <!--Panel LEWY WYBIERZ GRUPY START-->
+    <div class="container-fluid clearfix">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-3 ">
+                <nav class="navbar navbar-fixed-side">
+                    <button class=" btn btn-block" data-toggle="collapse" href="#grupyFiltr">Grupy użytkowników</button>
+                    <div class="panel-collapse collapse " id="grupyFiltr">
+                        @foreach (var grupa in Model.Select(x => new { x.Grupa }).Distinct().ToList())
+                        {
+                            <div class="input-group">
+                                <span class="input-group-addon beautiful checkboxAdresaci">
+                                    <input type="checkbox" class="form-control">
+                                </span>
+                                <input type="button" class="form-control fixed-label-min-size textFix lText" value="@grupa.Grupa" />
+                            </div>
+                        }
+                    </div>
+                    <div>
+                        @Html.Label("Limit")
+                        <span class="field-validation-valid" data-valmsg-for="vm.NowyLimit" data-valmsg-replace="true"></span>
+                         @Html.TextBox("vm.NowyLimit", "", new
+                         {
+                             @class = "form-control valid",
+                             type = "number",
+                             data_val="true",
+                             data_val_number = "Limit musi być cyfrą",
+                             data_val_range = "Limit nie może być wartością ujemną",
+                             data_val_range_max="1.79769313486232E+308",
+                             data_val_range_min="0",
+                             
+                         })
+                        
+                      
+                                                                        @*
+                                 aria-required="true" aria-invalid="false" aria-describedby="NowyLimit-error">
+        @Html.ValidationMessageFor(m=>m.First().NowyLimit)
+        @Html.TextBoxFor(m => m.First().NowyLimit, new { @class = "form-control", name = "vm.NowyLimit" })
+                                                                        *@
+                    </div>
+
+                    <div>
+                        @Html.Label("Komentarz")
+                        @Html.TextArea("vm.Komentarz", string.Empty, new { @class = "form-control", type = "textarea", rows = 4 })
+                    </div>
+                    <div>
+                        <button class="btn btn-primary btn-mobile zsd">
+                            <i class="fa fa-save"> Zapisz</i> 
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <!--Panel LEWY WYBIERZ GRUPY END-->
+
+            <!--Panel tabela START-->
+            <div class="col-sm-12 col-lg-9">
+                <div class="row">
+                    <div class="form-group ">
+                       
+                            <div class="table-responsive">
+                                <table id="tablePost" class="table table-striped ">
+                                    <thead>
+                                        <tr>
+                                            <th>@(Html.LabelFor(model => model.FirstOrDefault().UserId, new { @class = "control-label" })) </th>
+                                            <th>@(Html.LabelFor(model => model.First().Imie, new { @class = "control-label" }))</th>
+                                            <th>@(Html.LabelFor(model => model.First().Nazwisko, new { @class = "control-label" }))</th>
+                                            <th>@(Html.LabelFor(model => model.First().Grupa, new { @class = "control-label" }))</th>
+                                            <th>@(Html.LabelFor(model => model.First().Limit, new { @class = "control-label" }))</th>
+                                            <th>@(Html.LabelFor(model => model.First().Wybierz, new { @class = "control-label" }))</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @for (int i = 0; i < @Model.Count(); i++)
+                                        {
+                                            <tr>
+                                                <td>@Model.ElementAt(i).UserId</td>
+                                                @Html.Hidden("vm.Users[" + @i + "].UserId", Model.ElementAt(i).UserId, new { @class = "form-control" })
+                                                <td>@(Html.Name(Model.ElementAt(i).Imie)) </td>
+                                                <td class="nazwisko">@(Html.Name(Model.ElementAt(i).Nazwisko)) </td>
+                                                <td> @Model.ElementAt(i).Grupa</td>
+                                                <td>@Model.ElementAt(i).Limit </td>
+                                                <td>
+                                                    @* TODO Zmienić pobieranie danych, włączyć grupa ID, aktualnie potrzebny replace na grupa nazwa *@
+                                                    @Html.CheckBox("vm.Users[" + @i + "].Wybierz", Model.ElementAt(i).Wybierz
+                                                 , new { @class = String.Format("radioTabela {0}"
+                                                     , Model.ElementAt(i).Grupa.Replace(" ", "").Replace("\t", "")
+                                                     .Replace("\n", "").Replace("\r", "")) })
+                                                </td>
+
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!--Panel tabela END-->
+        </div>
+    </div>
+</div>
+}
+      

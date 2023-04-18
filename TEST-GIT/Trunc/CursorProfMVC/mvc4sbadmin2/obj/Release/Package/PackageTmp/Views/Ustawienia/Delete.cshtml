@@ -1,0 +1,78 @@
+﻿@model nclprospekt.Models.AdresDetaleWO
+
+@{
+    ViewBag.Title = "Usuwanie adresu";
+}
+
+@using (Ajax.BeginForm("Delete", "Ustawienia",
+            new AjaxOptions
+            {
+                HttpMethod = "POST",
+                InsertionMode = InsertionMode.Replace,
+                //OnSuccess = "deletedAdresSuccess()",
+                OnFailure = "onAdresFailure",
+                OnBegin = "onAdresPrepare",
+                OnComplete = "onAdresCompleted"//,
+               // UpdateTargetId = "modalBodyAdresDiv"
+            }))
+{
+
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+ 
+    
+    <fieldset>
+        <input id="status" value="@ViewBag.Status" data-message="@ViewBag.Message" style="display:none" />
+
+        <div class="panel panel-primary panel-block">
+            <div class="panel-heading">
+                Poniższy adres zostanie usuniety, kontynuować?
+
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+
+            <div class="panel-body">
+                
+                @Html.HiddenFor(model => model.blokada_id)
+                @Html.HiddenFor(model => model.user_id)
+                @Html.HiddenFor(model => model.adres.Adres_Id)
+                @Html.HiddenFor(model => model.adres.AdresTyp_Id)
+                <div class="form-group">
+                    @Html.LabelFor(model => model.adres.Nazwa)
+                    @*@Html.TextBoxFor(model => model.adres.Nazwa, new { @class = "form-control", @readonly = "readonly", data_val = "false" })*@
+
+                    <input name="nazwa" class="form-control" id="nazwa" value="@Model.adres.Nazwa" data-val="false" readonly>
+
+                    
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.adres.Ulica)
+                    @Html.TextBoxFor(model => model.adres.Ulica, new { @class = "form-control", @readonly = "readonly", data_val = "false" })
+
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.adres.Kod)
+                    <div class="input-group">
+                        <span class="input-group-addon">##-###</span>
+                        @*@Html.TextBoxFor(model => model.adres.Kod, new { @class = "form-control", @readonly = "readonly", data_val = "false" })*@
+
+                        <input name="Kod" class="form-control" id="Kod" value="@Model.adres.Kod" data-val="false" readonly>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.adres.Miasto)
+                    @Html.TextBoxFor(model => model.adres.Miasto, new { @class = "form-control", @readonly = "readonly", data_val = "false" })
+                </div>
+
+                <button type="submit" class="left btn btn-lg btn-warning" id="btnAdresSubmit" name="btnAdresSubmit"><i class="fa fa-trash-o">&nbsp;&nbsp;</i> Usuń</button>
+
+            </div>
+
+        </div>
+
+    </fieldset>
+    
+}

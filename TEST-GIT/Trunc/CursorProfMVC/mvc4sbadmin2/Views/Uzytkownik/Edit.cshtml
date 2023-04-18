@@ -1,0 +1,105 @@
+﻿@model nclprospekt.Models.Uzytkownik
+
+@section scripts {
+    <script src="@Url.Content("~/Scripts/custom-uzytkownik.js")" type="text/javascript"></script>
+    }
+
+@{
+    ViewBag.Title = "Użytkownik";
+}
+
+<br />
+
+
+    <div id="divUzytkownik" class="col-md-4 col-md-offset-4">
+           
+   
+        <div class="panel panel-primary panel-block">
+            <div class="panel-heading">
+                Uzytkownik
+            </div>
+
+            <div class="panel-body">
+@using (Html.BeginForm())
+{
+                <div class="col-xs-12">
+
+                        @Html.AntiForgeryToken()
+                        @Html.ValidationSummary(true)
+
+                        @Html.HiddenFor(model => model.BLOKADA_ID)
+                        @Html.HiddenFor(model => model.Uzytkownik_Id)
+                        @Html.HiddenFor(model => model.Login)
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Imie)
+                    @Html.TextBoxFor(model => model.Imie, new { @class = "form-control", autofocus = "" })
+                    @Html.ValidationMessageFor(model => model.Imie)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Nazwisko)
+                    @Html.TextBoxFor(model => model.Nazwisko, new { @class = "form-control", autofocus = "" })
+                    @Html.ValidationMessageFor(model => model.Nazwisko)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Nazwa)
+                    @Html.TextBoxFor(model => model.Nazwa, new { @class = "form-control", autofocus = "" })
+                    @Html.ValidationMessageFor(model => model.Nazwa)
+                </div>
+
+
+                   <div class="form-group">
+                    @Html.LabelFor(model => model.TelefonKomorkowy)
+                    @Html.TextBoxFor(model => model.TelefonKomorkowy, new { @class = "form-control", autofocus = "" })
+                    @Html.ValidationMessageFor(model => model.TelefonKomorkowy)
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Email)
+                    @Html.TextBoxFor(model => model.Email, new { @class = "form-control", autofocus = "" })
+                    @Html.ValidationMessageFor(model => model.Email)
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        @Html.CheckBoxFor(model => model.CZY_MAILE)
+                      Czy wysyłać notyfikacje mailowe?
+                    </label>
+                        </div>
+                    <br>
+
+
+
+
+
+                    @*koniec formy*@
+                  
+                    
+                    </div>
+                <div class="col-xs-12 col-md-6">
+
+                    <button type="submit" class="btn btn-lg btn-success btn-mobile" id="btnUserSubmit" name="btnUserSubmit">Zapisz dane</button>
+
+                </div>
+                
+}
+                        
+                        <br>
+
+                <div class=" col-xs-12 col-md-6">
+
+                    <button class="btn btn-lg btn-primary btn-mobile" id="btnNotyfikacjeEdit">Notyfikacje</button>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+<div id="divDetale" class="col-md-4 col-md-offset-4">
+
+
+</div>

@@ -1,0 +1,46 @@
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.pdb
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfServer\CursorProfServer\obj\Debug\ResolveAssemblyReference.cache
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.Resources.resources
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfServer\CursorProfServer\obj\Debug\ResGen.read.1.tlog
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfServer\CursorProfServer\obj\Debug\ResGen.write.1.tlog
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.dll
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.xml
+E:\SVN\SuperZsiSzablon\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.pdb
+E:\SVN\Upfield\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.dll
+E:\SVN\Upfield\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.pdb
+E:\SVN\Upfield\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.xml
+E:\SVN\Upfield\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.vbprojResolveAssemblyReference.cache
+E:\SVN\Upfield\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.Resources.resources
+E:\SVN\Upfield\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.vbproj.GenerateResource.Cache
+E:\SVN\Upfield\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.dll
+E:\SVN\Upfield\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.xml
+E:\SVN\Upfield\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.pdb
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.pdb
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.vbprojResolveAssemblyReference.cache
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.Resources.resources
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.vbproj.GenerateResource.Cache
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.dll
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.xml
+E:\ZSI NEW - OEXITSERVICES\UPFIELD\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.pdb
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.pdb
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.vbprojResolveAssemblyReference.cache
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.Resources.resources
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.vbproj.GenerateResource.Cache
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.dll
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.xml
+E:\ZSI NEW - OEXITSERVICES\LAFARGE\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.pdb
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.pdb
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfServer\CursorProfServer\bin\CursorProfServer.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.vbprojResolveAssemblyReference.cache
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.Resources.resources
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.vbproj.GenerateResource.Cache
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.dll
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.xml
+E:\ZSI NEW - OEXITSERVICES\ETI\Trunc\CursorProfServer\CursorProfServer\obj\Debug\CursorProfServer.pdb

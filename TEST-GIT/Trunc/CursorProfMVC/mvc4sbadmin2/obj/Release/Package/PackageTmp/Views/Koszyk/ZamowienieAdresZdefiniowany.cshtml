@@ -1,0 +1,35 @@
+﻿@model nclprospekt.Models.ZamowienieWczytaneWO
+
+<div class="radio">
+
+    <label>
+        @Html.RadioButtonFor(model => model.zamowienie.typ_zamowienia, 3, @Model.zamowienie.typ_zamowienia == 3 ? (object)new { id = "3adresZdefiniowany", Checked = "check", type = "radio", @class = "radio sprawdzane" } : new { id = "3adresZdefiniowany", type = "radio", @class = "radio sprawdzane" })
+        Dostawa na adres zdefiniowany
+    </label>
+    <div id="sel3adresZdefiniowany" class="divSelect" style="@(Model.zamowienie.typ_zamowienia == 3 ? "" : "display:none")">
+        @*@Html.HiddenFor(model => model.zamowienie.adres_id)*@
+
+
+        <div class="row">
+            @if (Model.uzywajComboAdresow == false)
+                {
+            <div class="col-xs-12">
+                @Html.DropDownListFor(model => model.zamowienie.adres_id, new SelectList(Model.zamowienieZdefiniowaneAdresy, "adres_id", "nazwa"), new { @class = "form-control sprawdzane af3adresZdefiniowany", @readonly="readonly"})
+            </div>
+            <div class="col-xs-5">
+             
+                <button type="button" class="btn btn-info btn-mobile" id="btnSzukajAdresu">
+                    <i class="fa fa-search fa-fw">&nbsp;&nbsp;</i>Szukaj ...
+                </button>
+               
+            </div>
+                }
+            else
+            {
+                <div class="col-xs-12">
+                    @Html.DropDownListFor(model => model.zamowienie.adres_id, new SelectList(Model.zamowienieZdefiniowaneAdresy, "adres_id", "nazwa"), new { @class = "form-control sprawdzane af3adresZdefiniowany"})
+                </div>
+            }
+        </div>
+    </div>
+</div>

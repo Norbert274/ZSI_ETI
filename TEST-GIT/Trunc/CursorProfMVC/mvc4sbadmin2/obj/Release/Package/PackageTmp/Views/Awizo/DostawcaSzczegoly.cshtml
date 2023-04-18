@@ -1,0 +1,97 @@
+﻿@model nclprospekt.Models.AwizoWO
+
+@using (Ajax.BeginForm("DostawcaSzczegoly", "Awizo",
+                new AjaxOptions
+                {
+                    HttpMethod = "POST",
+                    InsertionMode = InsertionMode.Replace,
+                    //OnFailure = "onAwizoDostawcaZapisFailure",
+                    OnSuccess = "onAwizoDostawcaZapisSuccess",
+                    OnComplete = "onAjaxComplete"
+                },
+                new { @id = "formDostawca" }))
+
+    { 
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    @Html.HiddenFor(model => model.dostawca.DOSTAWCA_ID)
+    
+
+
+    <div class="form-group">
+
+        <div class="col-xs-12 col-md-3">
+            <div class="form-group">
+                <button type="button" class="btn btn-lg btn-info btn-mobile" id="btnDostawcaNew">
+                    <i class="fa fa-plus">&nbsp;&nbsp;</i> 
+                    Nowy
+                </button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-3">
+            <div class="form-group">
+                <button type="button" class="btn btn-lg btn-primary btn-mobile" id="btnDostawcaEdit">
+                    <i class="fa fa-edit">&nbsp;&nbsp;</i> 
+                    Edytuj
+                </button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-3">
+            <div class="form-group">
+                <button type="submit" class="btn btn-lg btn-primary btn-mobile" id="btnDostawcaSubmit" disabled="">
+                    <i class="fa fa-save">&nbsp;&nbsp;</i> 
+                    Zapisz
+                </button>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-3">
+            <div class="form-group">
+                <button type="button" class="btn btn-lg btn-danger btn-mobile" id="btnDostawcaDelete" disabled>
+                    <i class="fa fa-trash-o">&nbsp;&nbsp;</i> 
+                    Usuń
+                </button>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div id="dostawcaDiv" class="col-xs-5">
+                <label>
+                    Dostawca:
+     
+                    @Html.DropDownListFor(model => model.dostawca.DOSTAWCA_ID, new SelectList(Model.dostawcyLista, "DOSTAWCA_ID", "NAZWA"), new { @class = "form-control sprawdzane" })
+                
+                </label>
+            </div>
+
+        </div>
+        <div class="col-md-7">
+            @Html.LabelFor(model => model.dostawca.NAZWA)
+            @Html.TextBoxFor(model => model.dostawca.NAZWA, new { @class = "form-control dostawcaEdit", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.dostawca.NAZWA)
+        </div>
+        <div class="col-md-5">
+            @Html.LabelFor(model => model.dostawca.KOD)
+            @Html.TextBoxFor(model => model.dostawca.KOD, new { @class = "form-control dostawcaEdit", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.dostawca.KOD)
+        </div>
+        <div class="col-md-7">
+            @Html.LabelFor(model => model.dostawca.MIASTO)
+            @Html.TextBoxFor(model => model.dostawca.MIASTO, new { @class = "form-control dostawcaEdit", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.dostawca.MIASTO)
+        </div>
+        <div class="col-md-5">
+            @Html.LabelFor(model => model.dostawca.KRAJ)
+            @Html.TextBoxFor(model => model.dostawca.KRAJ, new { @class = "form-control dostawcaEdit", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.dostawca.KRAJ)
+        </div>
+        <div class="col-md-7">
+            @Html.LabelFor(model => model.dostawca.ADRES)
+            @Html.TextBoxFor(model => model.dostawca.ADRES, new { @class = "form-control dostawcaEdit", disabled = "disabled" })
+            @Html.ValidationMessageFor(model => model.dostawca.ADRES)
+        </div>
+       
+
+    </div>
+
+    
+}

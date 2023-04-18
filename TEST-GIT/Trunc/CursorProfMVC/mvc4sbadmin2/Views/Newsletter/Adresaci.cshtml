@@ -1,0 +1,130 @@
+﻿@model  List<nclprospekt.Models.Adresat>
+
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@section scripts {
+<script src="@Url.Content("~/Scripts/custom-adresaci.js")" type="text/javascript"></script>
+}
+@using (Html.BeginForm("Adresaci", "NewsLetter", FormMethod.Post))
+{
+<div class="panel panel-primary panel-block">
+    <div class="panel-heading">
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                <a href="javascript:history.back()"> <span class="btn btn-circle podMenu btn-primary"><i class="fa fa-arrow-left"></i></span></a>
+                <strong>Powrót</strong>
+                <strong class="pull-right">Adresaci</strong>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid clearfix">
+        <div class="row">
+            <div class="col-sm-12 col-md-3">
+                <nav class="navbar navbar-fixed-side">
+                    <button class=" btn btn-block" data-toggle="collapse" href="#grupyFiltr">Grupy użytkowników</button>
+                    <div class="panel-collapse collapse " id="grupyFiltr">
+                        @foreach (var grupa in Model.Select(x => new { x.GrupaNazwa, x.GrupaId }).Distinct().ToList())
+                        {
+                            <div class=" input-group">
+
+                                <span class="input-group-addon beautiful checkboxAdresaci">
+                                    <input type="checkbox" class="form-control">
+                                </span>
+                                <p hidden class="paramGrupa">@grupa.GrupaId.ToString()</p>
+                                <input type="button" class="form-control fixed-label-min-size textFix" value="@grupa.GrupaNazwa" />
+                            </div>
+                        }
+                    </div>
+
+                    <button class="btn btn-block" data-toggle="collapse" href="#wielkoscFiltr">Wielkosc użytkowników</button>
+                    <div class="panel-collapse collapse " id="wielkoscFiltr">
+
+                        @foreach (var @wielkosc in @Model.Select(x => new { x.WielkoscNazwa, x.WielkoscId }).Distinct().ToList())
+                        {
+                            <div class=" input-group">
+                                <span class="input-group-addon beautiful checkboxAdresaci">
+                                    <input type="checkbox" class="checkboxAdresaci form-control">
+                                </span>
+                                <p hidden class="paramWielkosc">@wielkosc.WielkoscId.ToString()</p>
+                                <input type="button" class="form-control fixed-label-min-size textFix" value="@wielkosc.WielkoscNazwa">
+                            </div>
+                        }
+                    </div>
+                    <button class="btn btn-block" data-toggle="collapse" href="#typFiltr">Typ użytkowników </button>
+                    <div class="panel-collapse collapse" id="typFiltr">
+
+                        @foreach (var typ in @Model.Select(x => new { x.TypNazwa, x.TypId }).Distinct().ToList())
+                        {
+                            <div class=" input-group">
+                                <span class="input-group-addon beautiful checkboxAdresaci">
+                                    <input type="checkbox" class="form-control">
+                                </span>
+                                <p hidden class="paramTyp">@typ.TypId.ToString()</p>
+                                <input type="button" class="form-control fixed-label-min-size textFix" value="@typ.TypNazwa">
+                            </div>
+                        }
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-mobile">
+                        <i class="fa fa-save dodajAdresatow"> Dodaj</i>
+                    </button>
+                </nav>
+            </div>
+            <div class="col-sm-12 col-md-9">
+                <div class="row">
+                    <div class="form-group ">
+                       
+                            <div class="table-responsive">
+                                <table id="tablePost" class="table table-striped ">
+                                    <thead>
+                                        <tr>
+                                            <th>@(Html.LabelFor(model=>model.FirstOrDefault().Wybierz, new { @class = "control-label" })) </th>
+                                            <th>@(Html.LabelFor(model => model.First().Nazwa, new { @class = "control-label" }))</th>
+                                            <th>@(Html.LabelFor(model => model.First().Imie, new { @class = "control-label" }))</th>
+                                            <th>@(Html.LabelFor(model => model.First().Nazwisko, new { @class = "control-label" }))</th>
+                                            <th>@(Html.LabelFor(model => model.First().GrupaNazwa, new { @class = "control-label" }))</th>
+                                            <th>@(Html.LabelFor(model => model.First().TypNazwa, new { @class = "control-label" }))</th>
+                                            <th>@(Html.LabelFor(model => model.First().WielkoscNazwa, new { @class = "control-label" }))</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @for (int i = 0; i < @Model.Count(); i++)
+                                    {
+                                            <tr>
+                                                <td class="grupaId-@Model.ElementAt(i).GrupaId wielkoscId-@Model.ElementAt(i).WielkoscId typId-@Model.ElementAt(i).TypId XXX">
+
+                                                    @Html.CheckBox("adresaci[" + @i + "].Wybierz", Model.ElementAt(i).Wybierz,new {@class="radioTabela"})
+
+                                                </td>
+
+                                                <td>@Model.ElementAt(i).Nazwa</td>
+                                                @(Html.Hidden("adresaci[" + @i + "].Nazwa", Model.ElementAt(i).Nazwa))
+                                                <td>@(Html.Name(Model.ElementAt(i).Imie)) </td>
+                                                <td class="nazwisko">@(Html.Name(Model.ElementAt(i).Nazwisko)) </td>
+                                                <td> @Model.ElementAt(i).GrupaNazwa</td>
+                                                @(Html.Hidden("adresaci[" + @i + "].UserID", Model.ElementAt(i).UserId))
+                                                <td>@Model.ElementAt(i).TypNazwa </td>
+                                                <td>@Model.ElementAt(i).WielkoscNazwa</td>
+                                            </tr>
+                                    }
+
+                                    </tbody>
+                                </table>
+                               </div>
+                            
+
+                                
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+}
+
+
+

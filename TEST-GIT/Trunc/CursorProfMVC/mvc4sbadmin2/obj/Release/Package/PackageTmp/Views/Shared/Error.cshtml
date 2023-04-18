@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Błąd</h1>
+        <h2>Wstąpił błąd podczas przetwarzania wywołania.</h2>
+    </hgroup>
+
+    <h2>Szczegóły</h2>
+    <div style="width:400px; height:400px;">
+    <p>Kontroler: @Model.ControllerName <br/>
+       Akcja: @Model.ActionName <br/>
+       Błąd: @Model.Exception        
+    </p>
+    </div>
+</body>
+</html>

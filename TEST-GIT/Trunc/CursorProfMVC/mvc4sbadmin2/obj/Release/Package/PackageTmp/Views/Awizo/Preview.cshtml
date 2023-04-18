@@ -1,0 +1,293 @@
+﻿@model nclprospekt.Models.AwizoWO
+
+@{
+    ViewBag.Title = "Podgląd awiza";
+}
+
+<script type="text/javascript">
+    var settingsDetaleAwiza = {
+        "dom": '<"top"l>rt<"row-fluid"<"span2 offset1"i><"span6 offset1"p>>',
+        "language": {
+            "sProcessing": "   ",
+            "sLengthMenu": "_MENU_ pozycji na stronę",
+            "sZeroRecords": "Nie znaleziono pasujących pozycji",
+            "sInfoThousands": " ",
+            "sInfo": "Pozycje od _START_ do _END_ z _TOTAL_ łącznie",
+            "sInfoEmpty": "Pozycji 0 z 0 dostępnych",
+            "sInfoFiltered": "(filtrowanie spośród _MAX_ dostępnych pozycji)",
+            "sInfoPostFix": "",
+            "sSearch": "Filtruj wynik:",
+            "sUrl": "",
+            "oPaginate": {
+                "sFirst": '<i class="fa fa-angle-double-left fa-2x"></i>',
+                "sPrevious": '<i class="fa fa-angle-left fa-2x"></i>',
+                "sNext": '<i class="fa fa-angle-right fa-2x"></i>',
+                "sLast": '<i class="fa fa-angle-double-right fa-2x"></i>'
+            },
+            "sEmptyTable": "Brak danych",
+            "sLoadingRecords": " ",
+            "oAria": {
+                "sSortAscending": ": aktywuj, by posortować kolumnę rosnąco",
+                "sSortDescending": ": aktywuj, by posortować kolumnę malejąco"
+            }
+        },
+        "aLengthMenu": [[10, 25, 50, 75], [10, 25, 50, 75]],
+        "sPaginationType": "input",
+        "stateSave": true,
+        "scrollCollapse": true,
+        bPaginate: false,
+        bAutoWidth: false,
+
+        "columns": [
+                    {
+                        "class": "details-control all",
+                        "orderable": false,
+                        "data": null,
+                        "defaultContent": ""
+                    },//<th>#</th>
+
+               {}, //                <th>Html.DisplayNameFor(model => Model.awizoPozycje.First().SKU)</th>
+                {}, //<th>Html.DisplayNameFor(model => Model.awizoPozycje.First().NAZWA)</th>
+                {}, // <th>Html.DisplayNameFor(model => Model.awizoPozycje.First().KLASA_NAZWA)</th>
+                {}, // <th>Html.DisplayNameFor(model => Model.awizoPozycje.First().ILOSC)</th>
+                {}, //<th>Html.DisplayNameFor(model => Model.awizoPozycje.First().ILOSC_DOSTARCZONA)</th>
+                 {} //<th>GRUPA_NAZWA)</th>
+
+
+
+
+
+
+
+
+                                    
+
+
+
+
+        ],
+        "order": [[1, 'asc']],
+        "fnInitComplete": function () {
+
+            $('#awizoPozycje').show();
+            LoadingStop();
+
+            var t = $('#awizoPozycje').DataTable();
+            t.responsive.recalc();
+ 
+        }
+
+    };
+
+    $(document).ready(
+         function () {
+             var oTable = $('#awizoPozycje').DataTable(settingsDetaleAwiza);
+
+             oTable.draw();
+                                  
+             $('#awizoDane input').prop('disabled', true);
+             $('#awizoDane select').prop('disabled', true);
+             $('#awizoDane textarea').prop('disabled', true);
+             $('#awizoDane select ').prop('disabled', true);
+
+             var t = $('#awizoPozycje').DataTable();
+             t.responsive.recalc();
+         });
+
+
+
+</script>
+
+
+@*<br />*@
+<input id="status" value="@ViewBag.Status" data-message="@ViewBag.Message" style="display:none" />
+
+<div class="col-xs-12">
+    <div class="panel panel-default panel-block">
+        <div class="panel-heading">
+            <h1 class="panel-title">@Html.DisplayNameFor(model => model.awizo.AWIZO_ID)&nbsp;:&nbsp;<span id="awizo_id">@Model.awizo.AWIZO_ID</span></h1>
+        </div>
+    </div>
+</div>
+
+<div id="awizoDane">
+
+    @*<--Dostawca szczegoly-->*@
+    <div class="col-xs-12 col-md-7">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Dostawca
+            </div>
+            <div id="divDostawca" class="panel-body ">
+                <div class="form-group">
+                    <div class="col-md-7">
+                        @Html.LabelFor(model => model.dostawca.NAZWA)
+                        @Html.TextBoxFor(model => model.dostawca.NAZWA, new { @class = "form-control", disabled = "disabled" })
+                    </div>
+                    <div class="col-md-5">
+                        @Html.LabelFor(model => model.dostawca.KOD)
+                        @Html.TextBoxFor(model => model.dostawca.KOD, new { @class = "form-control", disabled = "disabled" })
+                    </div>
+                    <div class="col-md-7">
+                        @Html.LabelFor(model => model.dostawca.MIASTO)
+                        @Html.TextBoxFor(model => model.dostawca.MIASTO, new { @class = "form-control", disabled = "disabled" })
+                    </div>
+                    <div class="col-md-5">
+                        @Html.LabelFor(model => model.dostawca.KRAJ)
+                        @Html.TextBoxFor(model => model.dostawca.KRAJ, new { @class = "form-control", disabled = "disabled" })
+                    </div>
+                    <div class="col-md-7">
+                        @Html.LabelFor(model => model.dostawca.ADRES)
+                        @Html.TextBoxFor(model => model.dostawca.ADRES, new { @class = "form-control", disabled = "disabled" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*<--Dostawca szczegoly koniec-->*@
+
+    @*Dane zamowienia (kontakt)*@
+    <div class="col-xs-12 col-md-5">
+        <div class="panel panel-primary ">
+            <div class="panel-heading">
+                Kontakt
+            </div>
+            <div class="panel-body ">
+                @Html.LabelFor(model => model.awizo.OSOBA_KONTAKTOWA)
+                @Html.TextBoxFor(model => model.awizo.OSOBA_KONTAKTOWA, new { @class = "form-control" })
+                @Html.LabelFor(model => model.awizo.TELEFON_KONTAKTOWY)
+                @Html.TextBoxFor(model => model.awizo.TELEFON_KONTAKTOWY, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.awizo.TELEFON_KONTAKTOWY)
+                @Html.LabelFor(model => model.awizo.UWAGI)
+                @Html.TextAreaFor(model => model.awizo.UWAGI, new { @class = "form-control sprawdzane", @style = "margin-top: 0px; margin-bottom: 0px; height: 90px; resize:none;" })
+            </div>
+        </div>
+    </div>
+
+    @*Dane zamowienia*@
+    <div class="col-xs-12 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Dane zamówienia
+            </div>
+            <div class="panel-body">
+                <div class="col-xs-12">
+                    @Html.LabelFor(model => model.awizo.NUMER_PO)
+                    @Html.TextBoxFor(model => model.awizo.NUMER_PO, new { @class = "form-control" })
+                </div>
+
+                <div class="col-xs-12">
+                    @Html.LabelFor(model => model.awizo.PLANOWANA_DATA_DOSTAWY)
+                    @if (Model.awizo.PLANOWANA_DATA_DOSTAWY != null)
+                    {
+                        string strData = Model.awizo.PLANOWANA_DATA_DOSTAWY.ToString("yyyy-MM-dd").Substring(0, 10);
+                        @Html.TextBoxFor(model => model.awizo.PLANOWANA_DATA_DOSTAWY, String.Format("{0:d}", strData)
+                       , new { @class = "form-control sprawdzane", type = "date", data_date_format = "yyyy-MM-dd", @style = "display:block" })
+                    }
+                    else
+                    {
+                        @Html.TextBoxFor(model => model.awizo.PLANOWANA_DATA_DOSTAWY, String.Format("{0:d}"
+                       , DateTime.Now.ToString("yyyy-MM-dd")), new { @class = "form-control sprawdzane"
+                       , type = "date", data_date_format = "yyyy-MM-dd", @style = "display:block" })
+                    }
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    @*Ilosci palet i paczek*@
+    <div class="col-xs-12 col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Ilość palet i paczek
+            </div>
+            <div class="panel-body ">
+
+                <div class="col-md-12">
+                    @Html.LabelFor(model => model.awizo.ILOSC_PALET)
+                    @Html.TextBoxFor(model => model.awizo.ILOSC_PALET, new { @class = "form-control" })
+
+                </div>
+                <div class="col-md-12">
+                    @Html.LabelFor(model => model.awizo.ILOSC_PACZEK)
+                    @Html.TextBoxFor(model => model.awizo.ILOSC_PACZEK, new { @class = "form-control" })
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    @*Pozycje zamówienia*@
+    <div class="col-xs-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Pozycje awiza @Html.DisplayFor(model => model.awizo.AWIZO_ID)
+
+            </div>
+            <div class="panel-body">
+
+                <div class="form-group">
+                    <div class="table-responsive">
+
+                        <table class="table table-striped table-hover dt-responsive" id="awizoPozycje" width="100%">
+                            <thead>
+                                <tr>
+                                    @*Uwaga - nie zmieniać kolejności by jest tez w prospekt-awizo.js!!! - przy dodawaniu produktu*@
+                                    <th></th>
+                                    <th>@Html.DisplayNameFor(model => Model.awizoPozycje.First().SKU)</th>
+                                    <th>@Html.DisplayNameFor(model => Model.awizoPozycje.First().NAZWA)</th>
+                                    <th>@Html.DisplayNameFor(model => Model.awizoPozycje.First().KLASA_NAZWA)</th>
+                                    <th>@Html.DisplayNameFor(model => Model.awizoPozycje.First().ILOSC)</th>
+                                    <th>@Html.DisplayNameFor(model => Model.awizoPozycje.First().ILOSC_DOSTARCZONA)</th>
+                                    <th>@Html.DisplayNameFor(model => Model.awizoPozycje.First().GRUPA_NAZWA)</th>
+                                </tr>
+                            </thead>
+                            @if (Model.awizoPozycje != null)
+                            {
+                                <tbody>
+                                    @for (int i = 0; i < Model.awizoPozycje.Count(); i++)
+                                    {
+                                        <tr>
+                                            <td></td>
+                                            <td>@Html.DisplayFor(model => Model.awizoPozycje[i].SKU)</td>
+                                            <td>@Html.DisplayFor(model => Model.awizoPozycje[i].NAZWA)</td>
+                                            <td>@Html.DisplayFor(model => Model.awizoPozycje[i].KLASA_NAZWA)</td>
+                                            <td>@Html.DisplayFor(model => Model.awizoPozycje[i].ILOSC)</td>
+                                            <td>@Html.DisplayFor(model => Model.awizoPozycje[i].ILOSC_DOSTARCZONA)</td>
+                                            <td>@Html.DisplayFor(model => Model.awizoPozycje[i].GRUPA_NAZWA)</td>
+
+                                        </tr>
+                                    }
+                                </tbody>
+                            }
+                            else
+                            {
+                                <tbody></tbody>
+                            }
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="form-group col-xs-12 col-md-6">
+    <div class="form-group">
+
+        <button type="button" class="btn btn-lg btn-danger btn-mobile detail-link-return">
+            <i class="fa fa-backward">&nbsp;&nbsp;</i> 
+            <span aria-hidden="true"></span>
+            Wróć
+        </button>
+    </div>
+</div>

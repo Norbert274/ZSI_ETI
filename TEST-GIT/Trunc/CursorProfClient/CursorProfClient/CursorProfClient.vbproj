@@ -1,0 +1,1665 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{90957524-F2C4-4F13-8ADD-265FA57042E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CursorProfClient.My.MyApplication</StartupObject>
+    <RootNamespace>CursorProfClient</RootNamespace>
+    <AssemblyName>CursorProfClient</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\atm-srv-zsi-01p\ZSI_ETI\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>System rezerwacji i dystrybucji towaru</ProductName>
+    <PublisherName>Fulfilio Sp. z o.o.</PublisherName>
+    <SuiteName>System rezerwacji i dystrybucji towaru</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>Default.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationVersion>1.2.2.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CursorProfClient.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CursorProfClient.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo_cursor.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8D01453A362746857ECA6453EAC654C29E4FE0CB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v11.2.Core, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.Charts.v11.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v11.2.Core, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.PivotGrid.v11.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v11.2.Core, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.Printing.v11.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v11.2.Core, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.RichEdit.v11.2.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.XtraBars.v11.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.XtraCharts.v11.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.XtraLayout.v11.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.XtraNavBar.v11.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.XtraPivotGrid.v11.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.XtraPrinting.v11.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.XtraReports.v11.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v11.2, Version=11.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 2011.2\Components\Bin\Framework\DevExpress.XtraTreeList.v11.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>..\..\..\..\..\DANE\IT\ProjektyCursor\DLL\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Net" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AWIZACJA\frmAwizoDodajPozycjeZExcela.Designer.vb">
+      <DependentUpon>frmAwizoDodajPozycjeZExcela.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AWIZACJA\frmAwizoDodajPozycjeZExcela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AWIZACJA\frmSKUNoweZExcela.Designer.vb">
+      <DependentUpon>frmSKUNoweZExcela.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AWIZACJA\frmSKUNoweZExcela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ctrEdytorTekstu.Designer.vb">
+      <DependentUpon>ctrEdytorTekstu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctrEdytorTekstu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrImgGaleria.designer.vb">
+      <DependentUpon>ctrImgGaleria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctrImgGaleria.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrStan.designer.vb">
+      <DependentUpon>ctrStan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ctrStan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CursorProfDataTables.vb" />
+    <Compile Include="CursorProfHelpers.vb" />
+    <Compile Include="DisabledToolTip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmResetHasla.designer.vb">
+      <DependentUpon>frmResetHasla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResetHasla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportAwiz.Designer.vb">
+      <DependentUpon>frmRaportAwiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportAwiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportAwizaDostawa.Designer.vb">
+      <DependentUpon>frmRaportAwizaDostawa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportAwizaDostawa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPaletodni.designer.vb">
+      <DependentUpon>frmRaportPaletodni.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPaletodni.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportpaletodniFiltr.designer.vb">
+      <DependentUpon>frmRaportpaletodniFiltr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportpaletodniFiltr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPodzialow.Designer.vb">
+      <DependentUpon>frmRaportPodzialow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPodzialow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPodzialowFiltr.Designer.vb">
+      <DependentUpon>frmRaportPodzialowFiltr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPodzialowFiltr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPodzialySkuGrupaObdzielana.Designer.vb">
+      <DependentUpon>frmRaportPodzialySkuGrupaObdzielana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPodzialySkuGrupaObdzielana.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPodzialyZamowieniaPerUser.Designer.vb">
+      <DependentUpon>frmRaportPodzialyZamowieniaPerUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPodzialyZamowieniaPerUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportRentownosci.Designer.vb">
+      <DependentUpon>frmRaportRentownosci.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportRentownosci.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPrzyjeciaPoDatach.Designer.vb">
+      <DependentUpon>frmRaportPrzyjeciaPoDatach.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPrzyjeciaPoDatach.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPrzyjeciaPoDatachFiltr.Designer.vb">
+      <DependentUpon>frmRaportPrzyjeciaPoDatachFiltr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportPrzyjeciaPoDatachFiltr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportRozliczenie.designer.vb">
+      <DependentUpon>frmRaportRozliczenie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportRozliczenie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportRozliczenieFiltr.designer.vb">
+      <DependentUpon>frmRaportRozliczenieFiltr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportRozliczenieFiltr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportStanowBezGrupy.designer.vb">
+      <DependentUpon>frmRaportStanowBezGrupy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportStanowBezGrupy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportTerminowosciFedEx.Designer.vb">
+      <DependentUpon>frmRaportTerminowosciFedEx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportTerminowosciFedEx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportWejsciaWyjscia.Designer.vb">
+      <DependentUpon>frmRaportWejsciaWyjscia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportWejsciaWyjscia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownik.Designer.vb">
+      <DependentUpon>frmSlownik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikPozycjaDodaj.Designer.vb">
+      <DependentUpon>frmSlownikPozycjaDodaj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikPozycjaDodaj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikWielkosc.Designer.vb">
+      <DependentUpon>frmSlownikWielkosc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikWielkosc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikWielkoscEdycja.Designer.vb">
+      <DependentUpon>frmSlownikWielkoscEdycja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikWielkoscEdycja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmAdres.designer.vb">
+      <DependentUpon>frmAdres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmAdres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmAdresKopiuj.Designer.vb">
+      <DependentUpon>frmAdresKopiuj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmAdresKopiuj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmAdresy.designer.vb">
+      <DependentUpon>frmAdresy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmAdresy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AWIZACJA\frmAwizacje.designer.vb">
+      <DependentUpon>frmAwizacje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AWIZACJA\frmAwizacje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AWIZACJA\frmAwizaSzczegoly.designer.vb">
+      <DependentUpon>frmAwizaSzczegoly.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AWIZACJA\frmAwizaSzczegoly.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AWIZACJA\frmAwizoDodajPozycje.designer.vb">
+      <DependentUpon>frmAwizoDodajPozycje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AWIZACJA\frmAwizoDodajPozycje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmDaneDpd.Designer.vb">
+      <DependentUpon>frmDaneDpd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmDaneDpd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmDaneDpdUprawnienia.Designer.vb">
+      <DependentUpon>frmDaneDpdUprawnienia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmDaneDpdUprawnienia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AWIZACJA\frmDostawca.designer.vb">
+      <DependentUpon>frmDostawca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AWIZACJA\frmDostawca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRODUKT\frmEdytujSKU.designer.vb">
+      <DependentUpon>frmEdytujSKU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUKT\frmEdytujSKU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRODUKT\frmGaleria.designer.vb">
+      <DependentUpon>frmGaleria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUKT\frmGaleria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRODUKT\frmGaleriaDialog.designer.vb">
+      <DependentUpon>frmGaleriaDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUKT\frmGaleriaDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGlowna.designer.vb">
+      <DependentUpon>frmGlowna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGlowna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmGrupy.designer.vb">
+      <DependentUpon>frmGrupy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmGrupy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmKomunikatDlaUzytkownika.Designer.vb">
+      <DependentUpon>frmKomunikatDlaUzytkownika.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmKomunikatDlaUzytkownika.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmKomunikatEdycja.Designer.vb">
+      <DependentUpon>frmKomunikatEdycja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmKomunikatEdycja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmKomunikatyLista.Designer.vb">
+      <DependentUpon>frmKomunikatyLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmKomunikatyLista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKontakt.designer.vb">
+      <DependentUpon>frmKontakt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmKontakt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmLimity.designer.vb">
+      <DependentUpon>frmLimity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmLimity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmLimityDodajUzytkownik.designer.vb">
+      <DependentUpon>frmLimityDodajUzytkownik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmLimityDodajUzytkownik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogowanie.designer.vb">
+      <DependentUpon>frmLogowanie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogowanie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMagazyny.designer.vb">
+      <DependentUpon>frmMagazyny.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMagazyny.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmNewsleterLista.designer.vb">
+      <DependentUpon>frmNewsleterLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmNewsleterLista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmNewsletter.designer.vb">
+      <DependentUpon>frmNewsletter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmNewsletter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmNotyfikacjeSystemowe.Designer.vb">
+      <DependentUpon>frmNotyfikacjeSystemowe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmNotyfikacjeSystemowe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmNotyfikacjeUzytkownikow.Designer.vb">
+      <DependentUpon>frmNotyfikacjeUzytkownikow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmNotyfikacjeUzytkownikow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmNowaGrupaNazwa.designer.vb">
+      <DependentUpon>frmNowaGrupaNazwa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmNowaGrupaNazwa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmNowaWiadomosc.designer.vb">
+      <DependentUpon>frmNowaWiadomosc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmNowaWiadomosc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlikDodaj.designer.vb">
+      <DependentUpon>frmPlikDodaj.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlikDodaj.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlikiDoPobrania.designer.vb">
+      <DependentUpon>frmPlikiDoPobrania.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlikiDoPobrania.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Web References\wsCursorProf\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmPobieraniePlikowExcelaZBazy.Designer.vb">
+      <DependentUpon>frmPobieraniePlikowExcelaZBazy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmPobieraniePlikowExcelaZBazy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRODUKT\frmPodzialGrupa.designer.vb">
+      <DependentUpon>frmPodzialGrupa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUKT\frmPodzialGrupa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportHistoriiMaterialu.Designer.vb">
+      <DependentUpon>frmRaportHistoriiMaterialu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportHistoriiMaterialu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportLimity.designer.vb">
+      <DependentUpon>frmRaportLimity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportLimity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportLimityFiltr.designer.vb">
+      <DependentUpon>frmRaportLimityFiltr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportLimityFiltr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportRozchod.designer.vb">
+      <DependentUpon>frmRaportRozchod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportRozchod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportRozchodFiltr.designer.vb">
+      <DependentUpon>frmRaportRozchodFiltr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportRozchodFiltr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportStanow.designer.vb">
+      <DependentUpon>frmRaportStanow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportStanow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportZamowienFiltr.designer.vb">
+      <DependentUpon>frmRaportZamowienFiltr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportZamowienFiltr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportZamowienia.designer.vb">
+      <DependentUpon>frmRaportZamowienia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RAPORTY\frmRaportZamowienia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AWIZACJA\frmSKUNowy.designer.vb">
+      <DependentUpon>frmSKUNowy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AWIZACJA\frmSKUNowy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikObszarSprzedazyEdycja.Designer.vb">
+      <DependentUpon>frmSlownikObszarSprzedazyEdycja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikObszarSprzedazyEdycja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikObszarySprzedazy.Designer.vb">
+      <DependentUpon>frmSlownikObszarySprzedazy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikObszarySprzedazy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikSieciSprzedazy.Designer.vb">
+      <DependentUpon>frmSlownikSieciSprzedazy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikSieciSprzedazy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikSiecSprzedazyEdycja.Designer.vb">
+      <DependentUpon>frmSlownikSiecSprzedazyEdycja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikSiecSprzedazyEdycja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikZespolSprzedazyEdycja.Designer.vb">
+      <DependentUpon>frmSlownikZespolSprzedazyEdycja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikZespolSprzedazyEdycja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikZespolySprzedazy.Designer.vb">
+      <DependentUpon>frmSlownikZespolySprzedazy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SŁOWNIKI\frmSlownikZespolySprzedazy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRODUKT\frmStan.designer.vb">
+      <DependentUpon>frmStan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUKT\frmStan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmUzytkownicy.designer.vb">
+      <DependentUpon>frmUzytkownicy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmUzytkownicy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmUzytkownik.designer.vb">
+      <DependentUpon>frmUzytkownik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmUzytkownik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmUzytkownikFunkcje.designer.vb">
+      <DependentUpon>frmUzytkownikFunkcje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmUzytkownikFunkcje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmUzytkownikGrupy.designer.vb">
+      <DependentUpon>frmUzytkownikGrupy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmUzytkownikGrupy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmUzytkownikHaslo.designer.vb">
+      <DependentUpon>frmUzytkownikHaslo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmUzytkownikHaslo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmUzytkownikPodstawoweDane.designer.vb">
+      <DependentUpon>frmUzytkownikPodstawoweDane.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmUzytkownikPodstawoweDane.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmWiadomosci.designer.vb">
+      <DependentUpon>frmWiadomosci.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmWiadomosci.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmWyszukiwanieAdresu.designer.vb">
+      <DependentUpon>frmWyszukiwanieAdresu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmWyszukiwanieAdresu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZamowienia.designer.vb">
+      <DependentUpon>frmZamowienia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZamowienia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZamowieniaZExcela.Designer.vb">
+      <DependentUpon>frmZamowieniaZExcela.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZamowieniaZExcela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZamowienie.designer.vb">
+      <DependentUpon>frmZamowienie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZamowienie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZamowienieINV.Designer.vb">
+      <DependentUpon>frmZamowienieINV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZamowienieINV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZamowienieINVPozycjeExcel.Designer.vb">
+      <DependentUpon>frmZamowienieINVPozycjeExcel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZamowienieINVPozycjeExcel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZamowienieOdbiorcy.Designer.vb">
+      <DependentUpon>frmZamowienieOdbiorcy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZamowienieOdbiorcy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AWIZACJA\frmZarzadzanieAwizami.designer.vb">
+      <DependentUpon>frmZarzadzanieAwizami.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AWIZACJA\frmZarzadzanieAwizami.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmZmianaHasla_Tel_Email.designer.vb">
+      <DependentUpon>frmZmianaHasla_Tel_Email.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmZmianaHasla_Tel_Email.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmZmienHaslo.designer.vb">
+      <DependentUpon>frmZmienHaslo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UZYTKOWNIK - GRUPA\frmZmienHaslo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZwroty.designer.vb">
+      <DependentUpon>frmZwroty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZwroty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZwrotyBezZamowien.designer.vb">
+      <DependentUpon>frmZwrotyBezZamowien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZAMOWIENIE\frmZwrotyBezZamowien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ToolTipWithImage.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ZmienneGlobalne.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AWIZACJA\frmAwizoDodajPozycjeZExcela.resx">
+      <DependentUpon>frmAwizoDodajPozycjeZExcela.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AWIZACJA\frmSKUNoweZExcela.resx">
+      <DependentUpon>frmSKUNoweZExcela.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrEdytorTekstu.resx">
+      <DependentUpon>ctrEdytorTekstu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrImgGaleria.resx">
+      <DependentUpon>ctrImgGaleria.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrStan.resx">
+      <DependentUpon>ctrStan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResetHasla.resx">
+      <DependentUpon>frmResetHasla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportAwiz.resx">
+      <DependentUpon>frmRaportAwiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportAwizaDostawa.resx">
+      <DependentUpon>frmRaportAwizaDostawa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportPaletodni.resx">
+      <DependentUpon>frmRaportPaletodni.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportpaletodniFiltr.resx">
+      <DependentUpon>frmRaportpaletodniFiltr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportPodzialow.resx">
+      <DependentUpon>frmRaportPodzialow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportPodzialowFiltr.resx">
+      <DependentUpon>frmRaportPodzialowFiltr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportPodzialySkuGrupaObdzielana.resx">
+      <DependentUpon>frmRaportPodzialySkuGrupaObdzielana.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportPodzialyZamowieniaPerUser.resx">
+      <DependentUpon>frmRaportPodzialyZamowieniaPerUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportRentownosci.resx">
+      <DependentUpon>frmRaportRentownosci.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportPrzyjeciaPoDatach.resx">
+      <DependentUpon>frmRaportPrzyjeciaPoDatach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportPrzyjeciaPoDatachFiltr.resx">
+      <DependentUpon>frmRaportPrzyjeciaPoDatachFiltr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportRozliczenie.resx">
+      <DependentUpon>frmRaportRozliczenie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportRozliczenieFiltr.resx">
+      <DependentUpon>frmRaportRozliczenieFiltr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportStanowBezGrupy.resx">
+      <DependentUpon>frmRaportStanowBezGrupy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportTerminowosciFedEx.resx">
+      <DependentUpon>frmRaportTerminowosciFedEx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportWejsciaWyjscia.resx">
+      <DependentUpon>frmRaportWejsciaWyjscia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SŁOWNIKI\frmSlownik.resx">
+      <DependentUpon>frmSlownik.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SŁOWNIKI\frmSlownikPozycjaDodaj.resx">
+      <DependentUpon>frmSlownikPozycjaDodaj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SŁOWNIKI\frmSlownikWielkosc.resx">
+      <DependentUpon>frmSlownikWielkosc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SŁOWNIKI\frmSlownikWielkoscEdycja.resx">
+      <DependentUpon>frmSlownikWielkoscEdycja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmAdres.resx">
+      <DependentUpon>frmAdres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmAdresKopiuj.resx">
+      <DependentUpon>frmAdresKopiuj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmAdresy.resx">
+      <DependentUpon>frmAdresy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AWIZACJA\frmAwizacje.resx">
+      <DependentUpon>frmAwizacje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AWIZACJA\frmAwizaSzczegoly.resx">
+      <DependentUpon>frmAwizaSzczegoly.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AWIZACJA\frmAwizoDodajPozycje.resx">
+      <DependentUpon>frmAwizoDodajPozycje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmDaneDpd.resx">
+      <DependentUpon>frmDaneDpd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmDaneDpdUprawnienia.resx">
+      <DependentUpon>frmDaneDpdUprawnienia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AWIZACJA\frmDostawca.resx">
+      <DependentUpon>frmDostawca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRODUKT\frmEdytujSKU.resx">
+      <DependentUpon>frmEdytujSKU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRODUKT\frmGaleria.resx">
+      <DependentUpon>frmGaleria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRODUKT\frmGaleriaDialog.resx">
+      <DependentUpon>frmGaleriaDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGlowna.resx">
+      <DependentUpon>frmGlowna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmGrupy.resx">
+      <DependentUpon>frmGrupy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmKomunikatDlaUzytkownika.resx">
+      <DependentUpon>frmKomunikatDlaUzytkownika.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmKomunikatEdycja.resx">
+      <DependentUpon>frmKomunikatEdycja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmKomunikatyLista.resx">
+      <DependentUpon>frmKomunikatyLista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKontakt.resx">
+      <DependentUpon>frmKontakt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmLimity.resx">
+      <DependentUpon>frmLimity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmLimityDodajUzytkownik.resx">
+      <DependentUpon>frmLimityDodajUzytkownik.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogowanie.resx">
+      <DependentUpon>frmLogowanie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMagazyny.resx">
+      <DependentUpon>frmMagazyny.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmNewsleterLista.resx">
+      <DependentUpon>frmNewsleterLista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmNewsletter.resx">
+      <DependentUpon>frmNewsletter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmNotyfikacjeSystemowe.resx">
+      <DependentUpon>frmNotyfikacjeSystemowe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmNotyfikacjeUzytkownikow.resx">
+      <DependentUpon>frmNotyfikacjeUzytkownikow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmNowaGrupaNazwa.resx">
+      <DependentUpon>frmNowaGrupaNazwa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmNowaWiadomosc.resx">
+      <DependentUpon>frmNowaWiadomosc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlikDodaj.resx">
+      <DependentUpon>frmPlikDodaj.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlikiDoPobrania.resx">
+      <DependentUpon>frmPlikiDoPobrania.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZAMOWIENIE\frmPobieraniePlikowExcelaZBazy.resx">
+      <DependentUpon>frmPobieraniePlikowExcelaZBazy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRODUKT\frmPodzialGrupa.resx">
+      <DependentUpon>frmPodzialGrupa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportHistoriiMaterialu.resx">
+      <DependentUpon>frmRaportHistoriiMaterialu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportLimity.resx">
+      <DependentUpon>frmRaportLimity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportLimityFiltr.resx">
+      <DependentUpon>frmRaportLimityFiltr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportRozchod.resx">
+      <DependentUpon>frmRaportRozchod.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportRozchodFiltr.resx">
+      <DependentUpon>frmRaportRozchodFiltr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportStanow.resx">
+      <DependentUpon>frmRaportStanow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportZamowienFiltr.resx">
+      <DependentUpon>frmRaportZamowienFiltr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAPORTY\frmRaportZamowienia.resx">
+      <DependentUpon>frmRaportZamowienia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AWIZACJA\frmSKUNowy.resx">
+      <DependentUpon>frmSKUNowy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SŁOWNIKI\frmSlownikObszarSprzedazyEdycja.resx">
+      <DependentUpon>frmSlownikObszarSprzedazyEdycja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SŁOWNIKI\frmSlownikObszarySprzedazy.resx">
+      <DependentUpon>frmSlownikObszarySprzedazy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SŁOWNIKI\frmSlownikSieciSprzedazy.resx">
+      <DependentUpon>frmSlownikSieciSprzedazy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SŁOWNIKI\frmSlownikSiecSprzedazyEdycja.resx">
+      <DependentUpon>frmSlownikSiecSprzedazyEdycja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SŁOWNIKI\frmSlownikZespolSprzedazyEdycja.resx">
+      <DependentUpon>frmSlownikZespolSprzedazyEdycja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SŁOWNIKI\frmSlownikZespolySprzedazy.resx">
+      <DependentUpon>frmSlownikZespolySprzedazy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRODUKT\frmStan.resx">
+      <DependentUpon>frmStan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmUzytkownicy.resx">
+      <DependentUpon>frmUzytkownicy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmUzytkownik.resx">
+      <DependentUpon>frmUzytkownik.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmUzytkownikFunkcje.resx">
+      <DependentUpon>frmUzytkownikFunkcje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmUzytkownikGrupy.resx">
+      <DependentUpon>frmUzytkownikGrupy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmUzytkownikHaslo.resx">
+      <DependentUpon>frmUzytkownikHaslo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmUzytkownikPodstawoweDane.resx">
+      <DependentUpon>frmUzytkownikPodstawoweDane.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmWiadomosci.resx">
+      <DependentUpon>frmWiadomosci.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZAMOWIENIE\frmWyszukiwanieAdresu.resx">
+      <DependentUpon>frmWyszukiwanieAdresu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZAMOWIENIE\frmZamowienia.resx">
+      <DependentUpon>frmZamowienia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZAMOWIENIE\frmZamowieniaZExcela.resx">
+      <DependentUpon>frmZamowieniaZExcela.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZAMOWIENIE\frmZamowienie.resx">
+      <DependentUpon>frmZamowienie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZAMOWIENIE\frmZamowienieINV.resx">
+      <DependentUpon>frmZamowienieINV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZAMOWIENIE\frmZamowienieINVPozycjeExcel.resx">
+      <DependentUpon>frmZamowienieINVPozycjeExcel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZAMOWIENIE\frmZamowienieOdbiorcy.resx">
+      <DependentUpon>frmZamowienieOdbiorcy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AWIZACJA\frmZarzadzanieAwizami.resx">
+      <DependentUpon>frmZarzadzanieAwizami.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmZmianaHasla_Tel_Email.resx">
+      <DependentUpon>frmZmianaHasla_Tel_Email.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UZYTKOWNIK - GRUPA\frmZmienHaslo.resx">
+      <DependentUpon>frmZmienHaslo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZAMOWIENIE\frmZwroty.resx">
+      <DependentUpon>frmZwroty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZAMOWIENIE\frmZwrotyBezZamowien.resx">
+      <DependentUpon>frmZwrotyBezZamowien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolTipWithImage.resx">
+      <DependentUpon>ToolTipWithImage.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\wsCursorProf\AdresEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AdresEdytujZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AdresKopiujUserWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AdresStronaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AdresUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AdresyKopiujFiltryWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AdresyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AdresySkopiowaneZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AdresyZamowieniaOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AnulujZamowienieWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AwizaListaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AwizaSzczegolyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AwizoAnulujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AwizoPrzygotujZwrotWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AwizoTypyDostawQguarWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AwizoUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AwizoWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AwizoZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\AwizoZatwierdzWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\CursorService.wsdl" />
+    <None Include="Web References\wsCursorProf\CzyBiuroWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\CzyIstniejaWszystkieSkuWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\CzyUserOddzialWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\DostawcaEdycjaZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\DostawcaSzczegolyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\DostawcaUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\DostawcyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\DostawyGwarantowaneTypyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\FunkcjaListaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\GrupaListaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\GrupaUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\GrupyDodajNowaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\GrupyEdycjaWybranaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\GrupyPokazWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\GrupyZamowieniaExcelOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KategorieSkuOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KodyPocztoweDpdWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KodyPocztoweOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KodyPocztoweWieleSprawdzWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KomunikatEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KomunikatGrupyPrzypiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KomunikatGrupyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KomunikatUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KomunikatyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KontaktMailWyslijWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KoszykINVZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KoszykINVZatwierdzWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KoszykZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\KoszykZatwierdzWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\MagazynDomyslnyWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\MagazynyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\MinimalnaDataRealizacjiWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\NewsleterListaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\NewsleterOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\NewsleterWyslijWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\NotyfikacjeOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\NotyfikacjeSystemoweZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\NotyfikacjeZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\OddzialyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ParametrWartoscPobierzWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\PierwszeLogowanieWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\PlikExcelZakladanieSkuZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\PlikiDoPobraniaListaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\PlikiDoPobraniaUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\PlikiExcelaZamowieniaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\PlikZamowieniaExcelPobierzWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\PlikZamowieniaExcelZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\PobierzPlikWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\PodajSkuIdZSKUWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\PodzialGrupaOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\PodzialGrupaZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportAwizaDostawaFiltrWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportAwizDostawaGenerujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportAwizWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportHistoriiMaterialuWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportLimityWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportPaletodniWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportPodzialySkuGrupaObdzielanaGenerujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportPodzialySkuGrupaObdzielanaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportPodzialyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportPodzialyZamowieniaPerUserWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportPrzyjeciaPoDatachWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportRentownosciWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportRozchodyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportStanBezGrupWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportStanWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportTerminowosciFedExWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportWejsciaWyjsciaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportZamowieniaDaneUzytkownikaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportZamowieniaPozycjeWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportZamowieniaRozliczenieWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\RaportZamowieniaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\wsCursorProf\SKUEdytujFiltryWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SKUEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SKUEdytujZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SkuListaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SkuStanFiltryWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SkuUsunWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SkuUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SKUWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikListaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikObszarSprzedazyEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikObszarSprzedazyUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikObszarySprzedazyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikSieciSprzedazyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikSiecSprzedazyEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikSiecSprzedazyUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikWartoscEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikWartoscKilkaDodajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikWartoscUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikWartoscWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikWielkoscEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikWielkoscOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikWielkoscUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikZespolSprzedazyEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikZespolSprzedazyUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SlownikZespolySprzedazyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\SprawdzFunkcjeWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\StanMagazynSkuGrupaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\StanSkuGrupaINVWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\StanSkuGrupaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\StanSkuWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\StanWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\StatystykiWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserDaneDpdWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserDaneDpdZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserEdytujPodstawoweDaneZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserEdytujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserEdytujZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserLimityWczytajWybranychWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserLimityWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserLimityZapiszWybranymWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserLimityZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserResetHaslaGenerujTokenWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserResetHaslaUstawNoweHasloWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserRolaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserStronaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UserWielkoscTypWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UsunAtachmentWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\utworzMiniatureWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\UzytkownikDaneWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\WiadomoscDodajNowaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\WiadomosciListaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\WiadomoscUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\WyslijAtachmentWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZalogujWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZalozNowyProduktQGUARWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZamowienieDaneDpdWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZamowienieINVWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZamowienieOdbiorcyOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZamowienieRoboczeUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZamowienieStatusyListaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZamowienieStronaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZamowienieWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZapiszAtachmentWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZapiszMiniaturkeWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZdjeciaWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZdjecieDodajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZdjecieOdczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZdjecieUsunWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZmienHasloTelEmailWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZmienHasloUzytkownikaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZmienHasloWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZwrotyBezZamowienWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZwrotyBezZamowienWczytajZamowieniaWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZwrotyWczytajWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZwrotyZapiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\wsCursorProf\ZwrotZamowieniePrzypiszWynik.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_cursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLL\EPPlus.dll" />
+    <Content Include="Logo_cursor.ico" />
+    <None Include="Resources\oexebusiness.png" />
+    <None Include="Web References\wsCursorProf\CursorService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://eti.oexitservices.com/CursorService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\wsCursorProf\</RelPath>
+      <UpdateFromURL>https://eti.oexitservices.com/CursorService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>CursorProfClient_wsCursorProf_CursorService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pl\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

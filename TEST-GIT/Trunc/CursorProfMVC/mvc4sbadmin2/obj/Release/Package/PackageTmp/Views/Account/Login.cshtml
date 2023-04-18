@@ -1,0 +1,97 @@
+﻿@model nclprospekt.Models.LoginModel
+
+@{
+    ViewBag.Title = "Logowanie";
+}
+
+<style>
+    .form-signin {
+        margin: 0 auto;
+        max-width: 330px;
+        padding: 15px;
+    }
+</style>
+
+<br />
+<div class="container">
+
+
+    <div id="loginKomunikaty">
+
+        @if (@ViewBag.Error != null)
+        {
+            <div id="alertBlad" class="alert alert-block alert-danger fade in">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <h4 class="alert-heading">Wykryto błędy!</h4>
+                <p>@ViewBag.Error</p>
+            </div>
+        }
+
+        @if (@ViewBag.Warning != null)
+        {
+            <div id="alertWarning" class="alert alert-block alert-warning fade in">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <h4 class="alert-heading">Uwaga!</h4>
+                <p>@ViewBag.Warning</p>
+            </div>
+        }
+
+        @if (@ViewBag.Info != null)
+        {
+            <div id="alertInfo" class="alert alert-block alert-info fade in">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <h4 class="alert-heading">Informacja</h4>
+                <p>@ViewBag.Info</p>
+            </div>
+        }
+
+     
+    </div>
+
+
+
+
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+
+            <div class="login-panel panel ">
+            @*Obrazek*@
+                <div class="text-center">
+                    <a href="~/Home"><img class="hidden-xs" style="max-width:260px; margin-bottom: 20px;" src="~/Content/images/logo.png" alt="Cursor S.A." /></a>
+                    </div>         
+                    @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl, @class = "form-signin", role = "form" }))
+            {
+                        @Html.AntiForgeryToken()
+
+
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+                        <div class="form-group input-group">
+                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = "Nazwa użytkownika", autofocus = "" })
+                        </div>
+                        @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+
+                        <div class="form-group input-group">
+                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Hasło" })
+                        </div>
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+
+
+                        <label class="checkbox">
+                            @Html.CheckBoxFor(m => m.RememberMe, new { @readonly = "readonly", style = "display:none" })
+                            @Html.LabelFor(m => m.RememberMe, new { @class = "checkbox", @readonly = "readonly", style = "display:none" })
+                        </label>
+
+
+                        <input type="submit" value="Zaloguj" class="btn btn-lg btn-primary btn-block" />
+            }
+                </div>
+            <a href="@Url.Action("ForgottenPassword", "Account")">Zapomniałem hasła</a>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>

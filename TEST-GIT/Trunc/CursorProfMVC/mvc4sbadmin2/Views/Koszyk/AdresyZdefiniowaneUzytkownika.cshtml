@@ -1,0 +1,167 @@
+﻿@model nclprospekt.Models.AdresyWO
+
+
+<script type="text/javascript">
+        var settingsAdresyZdefiniowaneDT = {
+            "dom": '<"top"lf>rt<"row-fluid"<"span2 offset1"i><"span6 offset1"p>>',
+            "language": {
+                "sProcessing": "   ",
+                "sLengthMenu": "Pozycji na stronę _MENU_ ",
+                "sZeroRecords": "Nie znaleziono pasujących pozycji",
+                "sInfoThousands": " ",
+                "sInfo": "Pozycje od _START_ do _END_ z _TOTAL_ łącznie",
+                "sInfoEmpty": "Pozycji 0 z 0 dostępnych",
+                "sInfoFiltered": "(filtrowanie spośród _MAX_ dostępnych pozycji)",
+                "sInfoPostFix": "",
+                "sSearch": "Wyszukaj:",
+                "sUrl": "",
+                "oPaginate": {
+                    "sFirst": '<i class="fa fa-angle-double-left fa-2x"></i>',
+                    "sPrevious": '<i class="fa fa-angle-left fa-2x"></i>',
+                    "sNext": '<i class="fa fa-angle-right fa-2x"></i>',
+                    "sLast": '<i class="fa fa-angle-double-right fa-2x"></i>'
+                },
+                "sEmptyTable": "Wpisz szukaną nazwę w filtrze i naciśnij enter",
+                "sLoadingRecords": "   ",
+                "oAria": {
+                    "sSortAscending": ": aktywuj, by posortować kolumnę rosnąco",
+                    "sSortDescending": ": aktywuj, by posortować kolumnę malejąco"
+                }
+            },
+            "aLengthMenu": [[10, 25, 50, 75], [10, 25, 50, 75]],
+            "sPaginationType": "input",
+            "destroy": true,
+            "scrollCollapse": true,
+            "bAutoWidth": false,
+            "columns": [{
+                "class": "details-control",
+                "orderable": false,
+                "data": null,
+                sWidth: '10px',
+                "defaultContent": ""
+            },
+                       {
+                           "orderable": false,
+                           sWidth: '10px',
+                           "bUseRendered": true,
+                           "mRender": function (data, type, row) {
+                               var inkonki = '<a><i alt="Dodaj" class="fa fa-plus fa-2x AddMe" data-adresid="' + row["Adres_Id"] + '"></i></a>';
+                               return inkonki;
+                           }
+                       }, //Wybierz
+
+               {
+                     "class": "all", "data": "Nazwa", "title": "Nazwa",
+                    
+                 },
+                          { "data": "Ulica", "title": "Ulica" },
+                          { "data": "Kod", "title": "Kod" },
+                          { "data": "Miasto", "title": "Miasto" },
+                   
+
+            ],
+            "bProcessing": true,
+            "bServerSide": true,
+            "ajax": {
+                "url": "@Url.Action("Index", "Ustawienia")",
+                "dataType": 'json',
+                "type": "POST",
+                data: function (data) {
+                    var csrfToken = $("input[name='__RequestVerificationToken']").val();
+                    data.__RequestVerificationToken = csrfToken;
+                },
+                error: function (err) {
+                    ShowJsonAjaxMessage(err);
+                },
+                complete: function (xhr, status) {
+
+                    LoadingStop()
+                    IsJsonRedirect(xhr);
+                }
+            }
+
+        };
+
+
+        $(document).ready(
+        function () {
+            var t = $('#adresyDataTable').DataTable(settingsAdresyZdefiniowaneDT);
+            t.draw();
+
+            //prevents form submissions if press ENTER in textbox
+            $(window).keydown(function (event) {
+                if (event.keyCode == 13) {
+                    event.preventDefault();
+                    return false;
+                }
+            });
+
+            var searchbox = $('.dataTables_filter input');
+            searchbox.unbind();
+            searchbox.bind('keyup', function (e) {
+                if (e.keyCode == 13) {
+                    t.search(this.value).draw();
+                }
+            });
+
+            var uitool = '';
+            searchbox.on("mousedown", function () {
+                uitool = 'mouse';
+            });
+            searchbox.on("keydown", function () {
+                uitool = 'keyboard';
+            });
+
+            //Reset the search if the "x" is pressed in the filter box
+            searchbox.bind('input', function () {
+                if ((this.value == "") && (t.search() != '') && (uitool == 'mouse')) {
+                    t.search('').draw();
+                    return;
+                }
+            });
+
+            $('div.dataTables_filter input').focus();
+        });
+        
+</script>
+
+
+@{
+    ViewBag.Title = "Adresy zdefiniowane";
+}
+<br />
+@Html.AntiForgeryToken()
+
+<div class="panel panel-primary panel-block" id="listaAdresow">
+
+
+    <div class="panel-heading">
+        Adresy zdefiniowane
+    </div>
+
+    <div class="panel-body">
+
+        @*Dane*@
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover dt-responsive" id="adresyDataTable" cellspacing="0" style="width:100%"></table>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+</div>
+
+
+<div class="form-group col-xs-12 col-md-6">
+    <div class="form-group">
+
+        <button type="button" class="btn btn-lg btn-danger btn-mobile detail-link-return">
+            <span aria-hidden="true"></span>
+            Wróć
+        </button>
+    </div>
+</div>

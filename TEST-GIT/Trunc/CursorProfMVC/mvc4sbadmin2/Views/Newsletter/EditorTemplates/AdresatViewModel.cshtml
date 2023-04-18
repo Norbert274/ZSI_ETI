@@ -1,0 +1,11 @@
+﻿@model nclprospekt.Models.AdresatViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+@Html.HiddenFor(p => p.UserId)
+@Html.HiddenFor(p => p.Nazwa)
+@Html.CheckBoxFor(p => p.Wybierz)
